@@ -14,7 +14,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 * [AWS + Github Setup Instructions in Github](https://github.com/The-Marcy-Lab-School/aws-cloud9-environment-setup)
 
 ### Unit 0 - Command Line, Git, Github (1 week)
-* **9/26/22 - Intro to Command Line Interfaces** | [Slides](https://docs.google.com/presentation/d/1JqJp0FtIboZ8afAD3sPYOLQSMfViwAd1mj1wJl4nc3g/edit?usp=sharing) | [Lecture Recording](https://us02web.zoom.us/rec/play/KgrGRu6snbn16I2PN5vb2hlkvnxiojmaCQVJHUT3hREUWMaTsdVzuafICXYWZdvA2MLeu6IyHL7AIJtf.PUdMB0GE2vHQvTr6?autoplay=true&startTime=1664204859000)
+* **9/26/22 - Intro to Command Line Interfaces** | [Slides](https://docs.google.com/presentation/d/1JCyTysddqGIObjgmGS6iLcIcvyyFXKFe6wMVsnSYh64/edit#slide=id.g158fbd3a59f_0_0)| [Repo]() | [Lecture Recording TBD]()
 
 * **9/27/22 - Intro to Git & Github** | [Slides](https://docs.google.com/presentation/d/1ruOYceA3s9KyG3QVv4pbkCbje74H0PnKVQzq2RfV06c/edit?usp=sharing) | [Lecture Recording](https://drive.google.com/file/d/1xInqpPd0wWOKj1a4eRCYzSEriwhEKqqO/view) 
 * **9/28/22 - Collaborative Git** | [Slides](https://docs.google.com/presentation/d/137C6gWWTFGQNwBhSmgOWxazmL2wS5e_e_hPqDtWybSM/edit?usp=sharing) | [Lecture Recording](https://drive.google.com/file/d/13RAvKnuEhdWaHjM8lPTjTWNesIiHlItn/view) 
