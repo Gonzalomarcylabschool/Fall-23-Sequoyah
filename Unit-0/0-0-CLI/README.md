@@ -75,8 +75,141 @@ A "Command Line Interface" (CLI) is a text-based interface for:
 With time and practice you will find that using the CLI is so much more powerful to use and will allow you to do things that you didn't even know you could do. 
 
 
+## Command Line: How?
+
+Open the VSCode Terminal.
+The terminal will show up at the bottom.
+Type in a command and hit Enter. Most commands will return an output message.
+
+Mac: Terminal
+Windows: Ubuntu
+Everyone: VS Code Terminal
 
 
+Pro tip If there is a keyboard shortcut, learn it: 
+
+open terminal
+Shortcut to open terminal  control +  `
+Shortcut to open new terminal control + shift + `
+
+## Your first command
+
+`pwd` stands for "print working directory"
+A "directory" is a folder in your file system.
+The working directory is "which" directory you are currently "in".
 
 
+## "Reading" a directory's contents
 
+`ls` is short for "list".
+It allows you to "read" (look at) the contents of the working directory.
+
+### CRUD
+
+💡In computing, you're always doing one of four things:
+Creating, Reading, Updating, or Deleting (CRUD)
+
+As we go on notice how we are using CLI to do one of the CRUD actions. 
+
+## Creating Files and Directories
+
+`mkdir <dir_name>` creates a new directory in the working directory
+`touch <file_name>` creates a new file in the working directory
+`cp <file_name> <dir_name>` copies a file into a directory
+
+### Tips: 
+Arrow up or down to find previous commands. 
+Tab to auto-complete.
+
+## Changing Directory
+
+`cd <destination>` is the command for "changing directories".
+`<destination>` is a placeholder for the directory you want to go to. 
+
+In this example, we change directories to unit-0
+
+## Moving "up" and "down/in"
+
+When you write cd unit-0/test, your are moving "down/in" unit-0 then into test.
+Two dots .. refers to the parent of the working directory. 
+So, cd .. is how you move back "up".
+If, I am in the test directory, where do these take me?
+
+```
+cd ..
+cd ../../
+cd ../../unit-0/my-new-repo
+```
+## Argument
+
+Definition:
+`cd <destination>` 
+Example:
+`cd ../unit-1`
+
+In our definition, <destination> is just a placeholder.
+In the example, the actual value we used: `../unit-1`
+We refer to the `../unit-1` part as an "argument". 
+The third definition on Wiktionary.org of "argument": "the contents themselves"
+So if destination describes the kind of information we want, the argument is the actual content that we use.
+
+Consider these commands and identify the arguments
+```
+mkdir javascript
+cp index.js ../unit-1
+ls
+git status
+```
+mkdir(command) javascript(argument)
+cp index.js ../unit-1 (argument)
+ls(command) 
+git(command)  status(argument)
+
+
+## Practice Time: 
+
+Create this file structure using the command line.
+
+If I were in the hobbies folder, how would you navigate to the code folder?
+
+```
+lecture-0/
+|
+|---- code/
+|        |
+|        |--hello.js
+|        |--index.html
+|
+|---- hobbies/
+         |
+         |--- indoors_hobbies.md
+         |--- outdoor_hobbies.md
+
+```
+
+## Run a JavaScript file in your terminal
+
+In the Command line, you can do the following:
+```
+touch hello.js
+code hello.js
+```
+
+Once the file is open you can write the following code:
+
+```js
+console.log("Hello World");
+```
+
+
+## Terminating a program
+
+Many programs will end ("terminate") on their own.
+
+Other programs may require us to stop them ourselves. For example, the code below will run forever if we put it in our JavaScript program:
+
+```js
+while (true) { }
+```
+
+To terminate the program, use the keyboard shortcut Control+C
