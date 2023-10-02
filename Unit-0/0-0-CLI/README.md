@@ -17,8 +17,9 @@ Lecture recording TBD
 * How to run a JavaScript program using your CLI
 * Explain what an "argument" is
 
-## Key Terms:
+## Key Terms/ Commands/ Cl.?ode:
 
+### Technical Terms  
 * Command Line Interface (CLI)
 * Graphical User Interface (GUI)
 * Arguments
@@ -213,3 +214,14 @@ while (true) { }
 ```
 
 To terminate the program, use the keyboard shortcut Control+C
+
+
+## Conclusion:  
+
+Based on todays lecture you should be able to answer the following question: 
+
+* How is a CLI different from a GUI?
+* What can the command line do that our File Explorer cannot do?
+* What commands did you learn in this lesson?
+* How do we run a .js program? How do we terminate one?
+
