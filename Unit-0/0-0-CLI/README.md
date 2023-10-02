@@ -2,7 +2,7 @@
 
 [Lecture Slides](https://docs.google.com/presentation/d/1JCyTysddqGIObjgmGS6iLcIcvyyFXKFe6wMVsnSYh64/edit?usp=sharing)
 
-Lecture recording TBD
+[Lecture recording](https://us02web.zoom.us/rec/share/p2Wu4U5t0uVSsSOv6xNPYM7UPSwgh7ixT2-bsFmZQJJpm2fcyPuE9pKFk24XGmgQ.Dfj1_mwo1TvaWeDU)
 
 [Canvas Assignment](https://canvas.instructure.com/courses/7524631/assignments/41071717?module_item_id=94693590)
 
