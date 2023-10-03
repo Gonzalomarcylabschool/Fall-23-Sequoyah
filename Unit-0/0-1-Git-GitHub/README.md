@@ -33,7 +33,7 @@
 ### Commands
 ```
 git status
-git add
+git add ( [ -A ] [ -all ] [ . ])
 git commit -m "message"
 git push
 ```
@@ -55,3 +55,9 @@ This is what is known as a Version Control System(VCS). Unlike a most tools that
 
 **Repository** (or repo): a repository is where the history and different versions of a project are stored. Developers use repositories to collaborate on software projects, tracking changes, resolving conflicts, and maintaining different versions of the codebase. 
 
+## Github: What is it & why use it?
+
+**Github** is an online platform for **hosting** Git projects.
+* Sharing: Public repositories can be viewed, commented on, and downloaded by other members of the Github community
+
+* Collaborating: Developers can contribute new code to repositories, get feedback on their additions, and eventually merge new changes.
