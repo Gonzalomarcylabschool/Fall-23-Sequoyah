@@ -20,16 +20,22 @@
 ## Key Terms /Commands
 
 ### Terms
+* Version Control System
 * Git
 * GitHub
 * Repository (Repo)
 * Remote Repository
 * Local Repository
+* Stage
+* Commit
+* Push
 
 ### Commands
 ```
-git 
 git status
+git add
+git commit -m "message"
+git push
 ```
 
 ## Why Git? Also what is Git?
