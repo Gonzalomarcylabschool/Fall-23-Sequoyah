@@ -18,6 +18,7 @@
 * Merge
 * Merge Conflict
 * Feature
+* Pull Request
 
 ### Commands
 
@@ -54,12 +55,37 @@ They do this by creating branches
 ![Commit history with branches](./commit-history-with-branches.png)
 
 ## Making a new branch
+
 These are the commands for creating a new repository
 Git pull first to make sure we have all the updates from the main
 Git branch to see which branch we are in and what other branches may exist
 Git branch <name> to create a new branch
 Git checkout to switch branches
 Or, we could have used the shortcut git checkout-b <name>
+
+## Pushing to an "upstream"
+
+We made our branch on our local repo. It doesn't exist in the remote repo.
+
+When we push, git doesn't know where to push to.
+
+The `--set-upstream` flag will create a remote repo branch for us.
+
+## Pull  Request 
+
+Pull requests (PRs) are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators.
+"Main, won't you please pull my changes?"
+
+![](./pull-request.png)
+
+Click on compare & pull request.
+* At the top, we can see the base branch (main) and the compare branch (dishes) and that they can be automatically merged! This is because there are no merge conflicts
+* We can add comments if we want
+* Scroll down to see the commit history
+And the files changed
+* Scroll up and we can assign reviewers if we'd like or assign someone else to work on the branch from now on.
+* We can also tag it with labels or larger projects or milestones that we want to relate this PR to.
+Go ahead and create the PR
 
 
 ## Work flow
@@ -78,8 +104,8 @@ Or, we could have used the shortcut git checkout-b <name>
   * `git commit -m "<message>"`
 5. Push
   * `git push --set-upstream origin <branch>`
-6. Merge 
-  * Can be done on GitHub
+6. Pull request (pr)/ Merge
+  * an be done on GitHub
   * Can be done ClI
     ```
     git checkout main
@@ -87,5 +113,11 @@ Or, we could have used the shortcut git checkout-b <name>
     ```
 
 
-
 ## Merge Conflict
+
+
+### Merge Conflicts (1) - Pushing to main
+
+A merge conflict occurs when a two branches with different histories merge.
+
+![merge conflict](./merge-conflict.png)
