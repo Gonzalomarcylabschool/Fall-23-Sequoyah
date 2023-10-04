@@ -27,6 +27,7 @@ git branch
 git branch <new_ branch>
 git checkout <branch>
 git checkout -b <new_branch>
+git push --set-upstream origin <branch>
 ```
 
 ## What is `origin`/`main`?
@@ -51,3 +52,40 @@ Instead of a single timeline where one feature is worked on and then the next is
 They do this by creating branches
 
 ![Commit history with branches](./commit-history-with-branches.png)
+
+## Making a new branch
+These are the commands for creating a new repository
+Git pull first to make sure we have all the updates from the main
+Git branch to see which branch we are in and what other branches may exist
+Git branch <name> to create a new branch
+Git checkout to switch branches
+Or, we could have used the shortcut git checkout-b <name>
+
+
+## Work flow
+
+![workflow diagram](./workflow.png)
+
+1. Clone/Pull the project: 
+  *  `git clone <ssh>/git pull` 
+2. Make the branch/switch into the branch to make changes: 
+  * `git branch <new_ branch>` then `git checkout <branch>` or `git checkout -b <new_branch>`
+  * `git checkout <branch>`
+  *  Make Changes to the files
+3. Stage
+  * `git add .`
+4. Commit
+  * `git commit -m "<message>"`
+5. Push
+  * `git push --set-upstream origin <branch>`
+6. Merge 
+  * Can be done on GitHub
+  * Can be done ClI
+    ```
+    git checkout main
+    git merge main/branchName
+    ```
+
+
+
+## Merge Conflict
