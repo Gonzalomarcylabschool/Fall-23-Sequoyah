@@ -1,0 +1,53 @@
+# Collaborative Git
+
+## After this lecture you will be able to: 
+
+* Define the terms "branch" and "merge" as they relate to git
+* Create a branch through the Github GUI and the CLI.
+* Fork a repository.
+* Create a pull request.
+* Resolve merge conflicts through the Github GUI and CLI.
+
+
+## Key Terms/ Commands / Code
+
+### Terms
+
+* `origin`/ `main`
+* Branch
+* Merge
+* Merge Conflict
+* Feature
+
+### Commands
+
+```
+git pull
+git branch
+git branch <new_ branch>
+git checkout <branch>
+git checkout -b <new_branch>
+```
+
+## What is `origin`/`main`?
+
+Whenever you clone a repo, that remote repo is given a nickname called `origin`.
+`main` refers to the branch of the remote repository that you are working on.
+
+### Commits in a Linear Fashion
+
+We can think of the history of changes made to a repository like a timeline.
+
+The line represents the `main` branch of a repository. Each circle represents a commit in that branch.
+
+![commit history image](./commit-history.png)
+
+## Branches
+
+Developers will often work in parallel on _new features_ inside a branch — a copy of the main branch.
+
+Instead of a single timeline where one feature is worked on and then the next is worked on, and so on, developers will work in parallel. It's much more efficient for teams to break out and say "team A is working on the lock screen gallery and team B is working on the edit messages feature". These two features are unrelated. So by breaking out, the edit messages team doesn't have to wait for the lock screen team to finish their feature. They can work in parallel.
+
+They do this by creating branches
+
+![Commit history with branches](./commit-history-with-branches.png)
