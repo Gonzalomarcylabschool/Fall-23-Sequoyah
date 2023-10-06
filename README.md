@@ -8,13 +8,15 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 * [Github](https://github.com/)
 * [Write clean code tool](https://github.com/Gonzalomarcylabschool/adding-a-linter/blob/main/README.md)
 * [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
+
+  
+## Orientation Week
+
+* [Technical Overview Slides](https://docs.google.com/presentation/d/1DVShFW2-5n1rNWSiPx8AjL040WUfNxdoTBvO90uUYqE/edit?usp=sharing)
 * [Mac Setup](https://github.com/The-Marcy-Lab-School/local-environment-setup-mac)
 * [Windows/WSL Setup](https://github.com/The-Marcy-Lab-School/local-environment-setup-wsl)
 * [Github Setup](https://github.com/The-Marcy-Lab-School/github-setup)
 * [Git Cheatsheet](./cheatsheets/git-cheatsheet.md)
-  
-## Orientation Week
-* [Technical Overview Slides](https://docs.google.com/presentation/d/1DVShFW2-5n1rNWSiPx8AjL040WUfNxdoTBvO90uUYqE/edit?usp=sharing)
 
 **Tips & Tricks to Success at Marcy**
 
@@ -43,6 +45,9 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 #### Lectures Notes and Resources
 
+
+### Week 1
+
 * **10/10/23 - Intro to Node** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
 
 * **10/11/23 - Variables, Functions, and Strings** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
@@ -50,3 +55,36 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 * **10/11/23 - Flow Control** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
 
 * **10/12/23 - Problem Solving and Resources** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
+
+
+#### Week 2
+
+* **10/16/23 - Loops** | Slides | Lecture Recording
+  
+* **10/17/23 - Arrays** | Slides | Lecture Recording
+  
+* **10/18/23 - Objects** | Slides | Lecture Recording
+  
+*  **10/19/23 - Review** | Slides | Lecture Recording
+  
+
+#### Week 3
+
+* **10/23/23 - Callbacks** | Slides | Lecture Recording
+ 
+*  **10/24/23 - Higher Order Functions** | Slides | Lecture Recording
+
+* **10/25/23 - Regex** | Slides | Lecture Recording
+
+* **10/26/23 - Code Style** | Slides | Lecture Recording
+  
+
+#### Week 4
+
+*  **10/30/23 - Review**
+  
+* **10/31/23 - Review**
+  
+* **11/1/23 - Review**
+  
+* **11/2/23 - Mod 1 Assessment**
