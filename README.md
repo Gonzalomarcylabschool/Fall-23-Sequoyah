@@ -6,11 +6,23 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 **Important Links to Bookmark**
 * [Canvas](https://canvas.instructure.com/courses/7524631)
 * [Github](https://github.com/)
-* [Write clean code](https://github.com/Gonzalomarcylabschool/adding-a-linter/blob/main/README.md)
-
+* [Write clean code tool](https://github.com/Gonzalomarcylabschool/adding-a-linter/blob/main/README.md)
+* [FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures)
+* [Mac Setup](https://github.com/The-Marcy-Lab-School/local-environment-setup-mac)
+* [Windows/WSL Setup](https://github.com/The-Marcy-Lab-School/local-environment-setup-wsl)
+* [Github Setup](https://github.com/The-Marcy-Lab-School/github-setup)
+* [Git Cheatsheet](./cheatsheets/git-cheatsheet.md)
+  
 ## Orientation Week
 * [Technical Overview Slides](https://docs.google.com/presentation/d/1DVShFW2-5n1rNWSiPx8AjL040WUfNxdoTBvO90uUYqE/edit?usp=sharing)
 
+**Tips & Tricks to Success at Marcy**
+
+- [How to Boost Your Confidence as a New Programmer](https://marcylabschool.notion.site/marcylabschool/How-to-Boost-Your-Confidence-as-a-New-Programmer-3e08b5dc231444adb5770228696041ac)
+- [What is Computational Thinking?](https://youtu.be/qbnTZCj0ugI)
+- [The Surprising Truth About Notetaking During Lectures](https://www.youtube.com/watch?v=cRQqH18wJgw&ab_channel=BenjaminKeep%2CPhD%2CJD)
+
+## Curriculum 
 
 ### Unit 0 - Command Line, Git, Github (1 week)
 
@@ -23,6 +35,13 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 * **10/05/23 - Review** | [Slides](https://docs.google.com/presentation/d/1HJeFBOe1duBSKWVpm0STUV8vfd3VMCsM7r7ITIESg8A/edit?usp=sharing) | [Repo]() | [Lecture Recording TBA]()
 
 ### Mod-1 Core JS
+
+#### Module Resources
+- [Eloquent JavaScript (Online Textbook)](https://eloquentjavascript.net/)
+- [Codecademy: Intro to JavaScript Course](https://www.codecademy.com/enrolled/courses/introduction-to-javascript)
+- [She Codes JavaScript Cheatsheet](https://cheatsheets.shecodes.io/javascript)
+
+#### Lectures Notes and Resources
 
 * **10/10/23 - Intro to Node** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
 
