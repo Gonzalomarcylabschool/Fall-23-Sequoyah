@@ -15,9 +15,6 @@
 * Understand what a package.json is.
 * Know the difference between npm package imports vs local modules
 * What are npm scripts are and how to run them.
-* How to run tests.
-* How to read basic tests.
-
 
 ### Key Terms / Commands 
 
@@ -25,13 +22,34 @@
 
 * Node.js
 * Module
+* Export
 * Default Exports
 * Name Exports
+* Import
+* Node Package Manager
+* package.json
 
 **Commands**
 * `node`
+* `npm init -y`
+* `npm install <project-name>`
+* `npm [name of script]`
+* `npm run [name of script]`
 
-
+**Code**
+```js
+//  default export
+module.exports = value;
+//  named exports
+module.exports = {
+  value1,
+  value2,
+};
+//  import default export with require
+const value = require('./file-path');
+//  import named exports by using destructure with require
+const { value1, value2 } = require('./file-path')
+```
 **Other terms**
 
 * Browser
@@ -198,12 +216,63 @@ console.log('Lazy Pi Constant:', LAZY_PI);
 bigDeal();
 ```
 
-But what if you like a project so much you want to share it with the world?
+But what if you like a project so much you want to share it with the world? You can 'import' them into your own project using NPM.
 
 ## Node Package Manager (NPM)
 
-A package is a collection of modules 
-You can share and use these packages by using NPM
-When you install packages to your project, they’re called dependencies
+A package is a collection of modules. You can share and use these packages by using NPM. When you install packages to your project, they’re called dependencies.
 
 ![model of the node package manager](./NPM-model.png)
+
+## `package.json` to manage our project
+
+The package.json file stores information about a project:
+The dependencies and their versions
+Metadata for publishing our project
+NPM Scripts
+The package.json lives in the root of the directory, not a folder like `src/`
+
+Let's do this together
+
+**Commands**
+```bash
+mkdir my-test-project
+cd my-test-project
+touch index.js
+npm init -y
+npm install cowsay
+```
+
+**Code**
+```js
+const cowsay = require('cowsay');
+console.log(cowsay.say({text: 'Hello World'}));
+```
+
+We have imported modules from a project called cowsay. to learn more about this project [click here](https://www.npmjs.com/package/cowsay).
+
+
+When requiring modules in Node.js, you can either require local modules (modules that you have created in your project) or installed modules (modules that are available from the npm registry or other sources).
+
+Local: Path Specification
+```js
+const { add, subtract, LAZY_PI } = require('./named-exports');
+```
+Installed: Package Name
+```js
+const cowsay = require('cowsay');
+```
+
+## Scripts
+
+Scripts are for doing things like starting your project, or testing your code, scripts property in the package.json controls these.
+You have “built ins” and custom scripts. 
+You need the “run” keyword for non built in scripts.
+For built ins: npm [name of script]
+For custom: npm run [name of script]
+```bash
+npm test
+npm run dev
+``` 
+ALWAYS do npm test on your HW!
+
