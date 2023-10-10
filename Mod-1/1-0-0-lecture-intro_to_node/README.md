@@ -2,6 +2,7 @@
 
 ### Resources 
 
+* [Lecture Slides](https://docs.google.com/presentation/d/1FOZX8OwCfru2Qth1EvX7rRdzI9Hr1QDI3fo7QaR3yVI/edit#slide=id.g27e91089935_0_10) 
 * [What Is package.json?(article)](https://heynode.com/tutorial/what-packagejson/)
 * [What Is package.json?(video)](https://www.youtube.com/watch?v=YS3FDBjZCNc)
 * [Module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
