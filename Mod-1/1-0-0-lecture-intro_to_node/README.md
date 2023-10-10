@@ -3,10 +3,13 @@
 ### Resources 
 
 * [Lecture Slides](https://docs.google.com/presentation/d/1FOZX8OwCfru2Qth1EvX7rRdzI9Hr1QDI3fo7QaR3yVI/edit#slide=id.g27e91089935_0_10) 
+* [hey(node)](https://heynode.com/)
 * [What Is package.json?(article)](https://heynode.com/tutorial/what-packagejson/)
 * [What Is package.json?(video)](https://www.youtube.com/watch?v=YS3FDBjZCNc)
+* [Create a package.json File (video)](https://youtu.be/RuFw4YlurnE?feature=shared)
+* [Create a package.json File (tutorial)](https://heynode.com/tutorial/create-packagejson-file/?utm_source=youtube&utm_medium=referral+&utm_campaign=YT+description&utm_content=create-a-packagejson-file)
 * [Module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
-
+* 
 ### Lecture Objectives
 
 * Understand what Node.js is and how we use it to run code on a server (any computer).
