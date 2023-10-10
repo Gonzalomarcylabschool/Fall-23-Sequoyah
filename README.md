@@ -48,7 +48,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 ### Week 1
 
-* **10/10/23 - Intro to Node** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
+* **10/10/23 - Intro to Node** | [Slides](https://docs.google.com/presentation/d/1OFBBGrQvuV74RM3XJ1XEYZmjDMFIMrcuV40_mkgJsDA/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-0-lecture-intro_to_node) | [Lecture Recording TBA]()
 
 * **10/11/23 - Variables, Functions, and Strings** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
 
