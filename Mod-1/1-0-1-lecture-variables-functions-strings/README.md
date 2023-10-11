@@ -275,7 +275,7 @@ JS doesn’t care about single vs double quotes
 Backticks create “String templates”
 Strings have indexes that start on 0
 Strings have a .length property
-
+![strings-index](./string-example-index.png)
 ```js
 const string1 = "I'm using doubles to capture the 'single' quotes";
 const string2 = 'I am doing the "opposite" here';

@@ -52,7 +52,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 * **10/11/23 - Variables, Functions, and Strings** | [Slides](https://docs.google.com/presentation/d/178eHpZ4_17Osdocypd6_4nEiFJ1kJBXPj8t49P3jfHU/edit#slide=id.g28b48f17088_0_238) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-1-lecture-variables-functions-strings) | [Lecture Recording TBA]()
 
-* **10/11/23 - Flow Control** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
+* **10/11/23 - Flow Control** | [Slides](https://docs.google.com/presentation/d/102SIHvxRHHJ-_979yJdyq-3dI5NEVSME0uyBrSmgvrk/edit#slide=id.g1daa1ab0a7a_0_0) | [Repo]() | [Lecture Recording TBA]()
 
 * **10/12/23 - Problem Solving and Resources** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
 
