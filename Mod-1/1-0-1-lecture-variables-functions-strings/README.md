@@ -1,7 +1,7 @@
 # Variables,Functions,and Strings
 
 ### Resources
-* [Slides](https://docs.google.com/presentation/d/178eHpZ4_17Osdocypd6_4nEiFJ1kJBXPj8t49P3jfHU/edit?usp=sharing)
+* [Slides](https://docs.google.com/presentation/d/178eHpZ4_17Osdocypd6_4nEiFJ1kJBXPj8t49P3jfHU/edit#slide=id.g28b48f17088_0_238)
 
 ### Lecture Objectives
 
