@@ -1,0 +1,3 @@
+# node gitignore
+node_modules/
+coverage/
