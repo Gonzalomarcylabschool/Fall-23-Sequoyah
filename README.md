@@ -54,7 +54,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 * **10/11/23 - Flow Control** | [Slides](https://docs.google.com/presentation/d/102SIHvxRHHJ-_979yJdyq-3dI5NEVSME0uyBrSmgvrk/edit#slide=id.g1daa1ab0a7a_0_0) | [Repo]() | [Lecture Recording TBA]()
 
-* **10/12/23 - Problem Solving and Resources** | [Slides]() | [Repo]() | [Lecture Recording TBA]()
+* **10/12/23 - Problem Solving and Resources** | [Slides](https://docs.google.com/presentation/d/1zIhyh3UNJ9oQAUg0aBUFDhdvqalXGH1q0Xs0L3fsQTc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-3-lecture-notes) | [Lecture Recording TBA]()
 
 
 #### Week 2
