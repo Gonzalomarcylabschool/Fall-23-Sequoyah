@@ -59,7 +59,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 #### Week 2
 
-* **10/16/23 - Loops** | Slides | Lecture Recording
+* **10/16/23 - Loops** | [Slides](https://docs.google.com/presentation/d/1enxsqCt0OykPNWNBW1zsGY6MMruJVogAAuwhB75ZsuQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-0-lecutre-loops) | Lecture Recording 
   
 * **10/17/23 - Arrays** | Slides | Lecture Recording
   
