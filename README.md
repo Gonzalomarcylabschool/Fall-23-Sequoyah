@@ -61,7 +61,7 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 
 * **10/16/23 - Loops** | [Slides](https://docs.google.com/presentation/d/1enxsqCt0OykPNWNBW1zsGY6MMruJVogAAuwhB75ZsuQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-0-lecutre-loops) | Lecture Recording 
   
-* **10/17/23 - Arrays** | [Slides](https://docs.google.com/presentation/d/1jbe807oy9VTKov1ADxN1NteO7lxq1nscqkWApNSdkkc/edit?usp=sharing) | [Repo]() | Lecture Recording
+* **10/17/23 - Arrays** | [Slides](https://docs.google.com/presentation/d/1jbe807oy9VTKov1ADxN1NteO7lxq1nscqkWApNSdkkc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-1-lecture-notes-arrays) | Lecture Recording
   
 * **10/18/23 - Objects** | Slides | Lecture Recording
   
