@@ -30,10 +30,6 @@
 - know what indexes are
 - String.slice()
 
-### Key Terms / Commands / Code
-
-**Main terms**
-
 
 
 **Code**
@@ -42,5 +38,9 @@
 ```js
 array.push()
 array.pop()
-array.
+array.length
+array[index]
+array.slice(start, end)
+const arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+const newArr = [...arr]
 ```
