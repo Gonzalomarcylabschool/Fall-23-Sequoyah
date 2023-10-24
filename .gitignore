@@ -1,1 +1,3 @@
-practice/
+practice
+node_modules
+.env

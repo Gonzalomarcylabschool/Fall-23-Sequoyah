@@ -46,40 +46,39 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 #### Lectures Notes and Resources
 
 
-### Week 1
+### Week 0
 
 * **10/10/23 - Intro to Node** | [Slides](https://docs.google.com/presentation/d/1FOZX8OwCfru2Qth1EvX7rRdzI9Hr1QDI3fo7QaR3yVI/edit#slide=id.g27e91089935_0_10) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-0-lecture-intro_to_node) | [Lecture Recording TBA]()
 
 * **10/11/23 - Variables, Functions, and Strings** | [Slides](https://docs.google.com/presentation/d/178eHpZ4_17Osdocypd6_4nEiFJ1kJBXPj8t49P3jfHU/edit#slide=id.g28b48f17088_0_238) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-1-lecture-variables-functions-strings) | [Lecture Recording TBA]()
 
-* **10/11/23 - Flow Control** | [Slides](https://docs.google.com/presentation/d/102SIHvxRHHJ-_979yJdyq-3dI5NEVSME0uyBrSmgvrk/edit#slide=id.g1daa1ab0a7a_0_0) | [Repo]() | [Lecture Recording TBA]()
+* **10/11/23 - Flow Control** | [Slides](https://docs.google.com/presentation/d/102SIHvxRHHJ-_979yJdyq-3dI5NEVSME0uyBrSmgvrk/edit#slide=id.g1daa1ab0a7a_0_0) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-2-lecture-flow-control-operators-math) | [Lecture Recording TBA]()
 
-* **10/12/23 - Problem Solving and Resources** | [Slides](https://docs.google.com/presentation/d/1zIhyh3UNJ9oQAUg0aBUFDhdvqalXGH1q0Xs0L3fsQTc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-3-lecture-notes) | [Lecture Recording TBA]()
+* **10/12/23 - Problem Solving and Resources** | [Slides](https://docs.google.com/presentation/d/1zIhyh3UNJ9oQAUg0aBUFDhdvqalXGH1q0Xs0L3fsQTc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-0-3-lecture-notes) | Lecture Recording TBA
 
+
+#### Week 1
+
+* **10/16/23 - Loops** | [Slides](https://docs.google.com/presentation/d/1enxsqCt0OykPNWNBW1zsGY6MMruJVogAAuwhB75ZsuQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-0-lecutre-loops) | Lecture Recording TBD
+* **10/17/23 - Arrays** | [Slides](https://docs.google.com/presentation/d/1jbe807oy9VTKov1ADxN1NteO7lxq1nscqkWApNSdkkc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-1-lecture-notes-arrays) | Lecture Recording TBD
+  
+* **10/18/23 - Objects** | [Slides](https://docs.google.com/presentation/d/1uB1uPTGdaKhwvPD11kYyaiuh9I0j3zow6ZsW2UXDvvI/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-2-objects)| Lecture Recording TBD
+  
+*  **10/19/23 - Review** | [Slides](https://docs.google.com/presentation/d/1ALEKPDGfC6ovAhT2xuhVJ3cea_K31QZKGiJfnNvwxwo/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-3-review-so-far) | Lecture Recording TBD
+  
 
 #### Week 2
 
-* **10/16/23 - Loops** | [Slides](https://docs.google.com/presentation/d/1enxsqCt0OykPNWNBW1zsGY6MMruJVogAAuwhB75ZsuQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-0-lecutre-loops) | Lecture Recording 
-  
-* **10/17/23 - Arrays** | [Slides](https://docs.google.com/presentation/d/1jbe807oy9VTKov1ADxN1NteO7lxq1nscqkWApNSdkkc/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/1-1-1-lecture-notes-arrays) | Lecture Recording
-  
-* **10/18/23 - Objects** | Slides | Lecture Recording
-  
-*  **10/19/23 - Review** | Slides | Lecture Recording
+* **10/23/23 - Callbacks** | [Slides](https://docs.google.com/presentation/d/1ZoC1XUm9GJns3XqAYZGOIXt_LpUn9-VbQmdEZt_pf7M/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-2/1-2-0-callbacks) | Lecture Recording
+ 
+*  **10/24/23 - Higher Order Functions** | [Slides](https://docs.google.com/presentation/d/14E-5lhZHbfxfuCIzrPnuYNrcH84_c7UKS-D8avZ8xCg/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-2/1-2-1-HOF) | Lecture Recording TBD
+
+* **10/25/23 - Regex** | [Slides](https://docs.google.com/presentation/d/1KNxfevZGXU2srFOejf6qBgOwXznH8ddQ3ePeqTXbGiQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-2/1-2-2-regex) | Lecture Recording
+
+* **10/26/23 - Code Style** | [Slides](https://docs.google.com/presentation/d/1ZCYZoW4S2d89FWqYoRCbL8BB45lcEUckTJgy6QQZiIQ/edit?usp=sharing) | [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-2/1-2-3-style) |Lecture Recording TBD
   
 
 #### Week 3
-
-* **10/23/23 - Callbacks** | Slides | Lecture Recording
- 
-*  **10/24/23 - Higher Order Functions** | Slides | Lecture Recording
-
-* **10/25/23 - Regex** | Slides | Lecture Recording
-
-* **10/26/23 - Code Style** | Slides | Lecture Recording
-  
-
-#### Week 4
 
 *  **10/30/23 - Review**
   
