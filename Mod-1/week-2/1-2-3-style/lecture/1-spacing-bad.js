@@ -7,6 +7,7 @@ loudHobbies: hobbies.filter(hobby =>
   {
     console.log(hobby)
 return hobby.toUppercase()
-};
+})
+}
   return person;
 }

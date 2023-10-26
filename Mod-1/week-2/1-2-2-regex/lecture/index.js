@@ -1,11 +1,13 @@
 /* Making regexs */
 
 /* constructor */
-const person = 'Zo';
-const regEx = new RegExp('abc', 'g');
-const greet = new RegExp(`Hi ${person}`, 'g');
+const person = 'Carmen';
+const pattern = new RegExp(`\\w`, 'g');
+// const greet = new RegExp(`Hi ${person}`, 'g');
 // console.log('greet.toString:', greet.toString()); // to see the completed regex
+const sentence = `Hey Zo, how are you today?`;
 
+console.log(pattern.test(`Hey Zo, how are you today?`));
 
 /* literal */
 const literal = /[^a-z]/g;

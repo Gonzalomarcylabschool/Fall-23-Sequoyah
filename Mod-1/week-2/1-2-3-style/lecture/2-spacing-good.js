@@ -4,8 +4,9 @@ const thing = (hobbies) => {
     name: 'tom',
     age: 12,
     loudHobbies: hobbies.filter(hobby => {
-      console.log(hobby)
-      return hobby.toUppercase()
-  };
+      console.log(hobby);
+      return hobby.toUppercase();
+    }),
+  } 
   return person;
-}
+};

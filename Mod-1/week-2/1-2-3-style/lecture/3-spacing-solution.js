@@ -8,5 +8,5 @@ const thing = (hobbies) => {
     }), // IT WAS ME, BRACKETS
   };
   return person;
-}
+};
 
