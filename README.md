@@ -43,8 +43,14 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 - [Codecademy: Intro to JavaScript Course](https://www.codecademy.com/enrolled/courses/introduction-to-javascript)
 - [She Codes JavaScript Cheatsheet](https://cheatsheets.shecodes.io/javascript)
 
-#### Lectures Notes and Resources
+#### Labs
 
+Labs are mini-projects that will give you an opportunity to put your learnings to practice by building an application! Begin labs only once you've completed all assignments for the week. These should be completed in order.
+
+1. [Project Planning - CLI App](https://github.com/The-Marcy-Lab-School/1-0-3-lab_project_planning_cli_app)
+2. [Building a CLI CRUD App With JSON](https://github.com/The-Marcy-Lab-School/1-1-3-lab_json-cli)
+
+#### Lectures Notes and Resources
 
 ### Week 0
 
