@@ -1,5 +1,8 @@
 # All Skills List
 
+[Week one Study guide](https://github.com/The-Marcy-Lab-School/2023-Fall-Curriculum/blob/main/mod-1/study-guides/week-1-study-guide.md)
+
+
 **Table of Contents**
 1. [Node](#1-0-0-node)
 2. [Variables, Functions, Strings](#1-0-1-vars-functions-strings)
