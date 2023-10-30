@@ -1,0 +1,17 @@
+{
+  "name": "review-day-1",
+  "version": "1.0.0",
+  "description": "**Table of Contents** * [1-0-0 Node](#1-0-0-node) * [1-0-1 Variables, Functions, and Strings](#1-0-1-vars-functions-strings) * [1-0-2 Control Flow](#1-0-2-control-flow)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.0"
+  }
+}
