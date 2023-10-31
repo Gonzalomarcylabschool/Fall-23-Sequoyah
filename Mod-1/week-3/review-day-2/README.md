@@ -1,6 +1,8 @@
 # Mod 1 - Week 2 Study Guide 
 
 **Table of Contents**
+* [Rapid Review](#rapid-review)
+* [Note about `const` and `let`]
 * [1-1-0 Loops](#1-1-0-loops)
   * [For Loops](#for-loops)
   * [While Loops](#while-loops)
@@ -15,6 +17,46 @@
   * [Object Basics](#object-basics)
   * [Dynamic Properties](#dynamic-properties)
   * [Destructuring](#destructuring)
+## Rapid Review:
+
+What is scope?
+
+What gets hoisted in JavaScript?
+
+How do modules improve our code?
+
+What is the guard clause?
+
+
+## `const` and `let`
+
+You need ot remember 4 things about each of these keywords:
+* Scope level
+* If its Reassignable?
+* Affects Mutability
+* is it hoisted?
+
+const:
+* Scope level: block
+* If its Reassignable?: no
+* Affects Mutability: no
+* is it hoisted?: no
+
+let:
+* Scope level: block
+* If its Reassignable?: yes
+* Affects Mutability: no
+* is it hoisted?: no
+
+## Math static Methods
+
+* `Math.abs()`: Returns the absolute value of x.
+* `Math.ceil()`: Returns the smallest integer greater than or equal to x.
+* `Math.floor()`: Returns the largest integer less than or equal to x.
+* `Math.max()`: Returns the largest of zero or more numbers.
+* `Math.min()`: Returns the smallest of zero or more numbers.
+* `Math.pow()`: Returns base x to the exponent power y (that is, xy).
+* `Math.random()`Returns a pseudo-random number between 0 and 1.
 
 ## 1-1-0 Loops
 
