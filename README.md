@@ -42,6 +42,9 @@ Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slid
 - [Eloquent JavaScript (Online Textbook)](https://eloquentjavascript.net/)
 - [Codecademy: Intro to JavaScript Course](https://www.codecademy.com/enrolled/courses/introduction-to-javascript)
 - [She Codes JavaScript Cheatsheet](https://cheatsheets.shecodes.io/javascript)
+- [Week 0 review](https://github.com/The-Marcy-Lab-School/2023-Fall-Curriculum/blob/main/mod-1/study-guides/week-1-study-guide.md)
+- [Week 1 review](https://github.com/The-Marcy-Lab-School/1-3-1-resource_week-2-study-guide/blob/main/README.md)
+ - Week 2 review TBD
 
 #### Labs
 
@@ -86,10 +89,10 @@ Labs are mini-projects that will give you an opportunity to put your learnings t
 
 #### Week 3
 
-*  **10/30/23 - Review**
+*  **10/30/23 - Review** [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-3/review-day-1)
   
-* **10/31/23 - Review**
+* **10/31/23 - Review** [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-3/review-day-2)
   
-* **11/1/23 - Review**
+* **11/1/23 - Review** [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-3/review-day-3)
   
 * **11/2/23 - Mod 1 Assessment**
