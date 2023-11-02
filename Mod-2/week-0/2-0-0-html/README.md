@@ -1,18 +1,13 @@
 # Lecture Prep 2.0.0 - Intro To HTML
-
-This lecture is a little different! There's just `lecture`
+[Lecuture slides](https://docs.google.com/presentation/d/12g2UpY90bBVzsi8l9rpqpi5HBFPd1nJYpeNhgPRVC4g/edit?usp=sharing)
 
 # Part 1 - What is HTML?
 > The internet is made up of billions and billions of pages. But just like Google sheets, we need some way of *writing* those pages. The browser needs some way to know what it's looking at and how it should display it to the user. Is this text a heading? A quote? A list? HTML tells the browser exactly what it's looking at. JS lets us add interactivity with dynamic scripts, and css lets us style our pages to look nice, but the *content* comes from HTML documents. So in order to show our users all our cool applications, first, we have learn to create our own HyperText Markup Language documents, or HTML pages!
 
-For this lecture, encourage the fellows to create a document along with you to see all the tags in action. Nothing in here is complicated, it's all just showing the features so they can write them down and start using them.
-
------------
-Time: 2min
-Total: 2min
+ Create a document and follow along with me to see all the tags in action. Nothing in here is complicated, it's all just showing the features so you can write them down and start using them.
 
 # Part 2 - Creating and opening a file
-Explain that "index.html" is a magic name that servers will automatically look for if a user enters a domain without a file extension: test.com === test.com/index.html. Modern routing systems mess with this a bit, but `index.html` is still almost universally the entrypoint for applications.
+`index.html` is a magic name that servers will automatically look for if a user enters a domain without a file extension: test.com === test.com/index.html. Modern routing systems mess with this a bit, but `index.html` is still almost universally the entrypoint for applications.
 
 You can open the file either by clicking on it or using `open index.html` from the console. That will open it as a file (browser says file://). That's fine for small projects, but some more advanced features need the file to be "hosted" by a server. You could build an express server (and we will eventually!), but you can also use standalone products that build a static server. like
 - vscode's liveserver
@@ -22,10 +17,6 @@ You can open the file either by clicking on it or using `open index.html` from t
 A server that only hosts static (unchanging) assets like html and js files is called a "static server" and GitHub pages is a great one to use.
 
 We'll use live server on VSCode because it does "hot reloading," which means every time we save our document, the server will reload our browser window for us.
-
----------
-Time: 5min
-Total: 7min
 
 # Part 3 - Anatomy of a tag: h and p
 The base "unit" in html is called the "tag." A tag usually has an opening and a closing tag
@@ -58,10 +49,6 @@ heading tags are for main headings and there are 6, they should always flow in o
 paragraph tags are for most standard text. Text should always appear in a tag.
 
 By the way, `<!-- -->` is how you comment in html.
-
----------
-Time: 5min
-Time: 13min
 
 # Part 4: nesting tags
 Text is not the only thing that can go in a tag, in fact *most* tags nest other tags. A good example of this is the `ordered list` and `unordered list` tags and their `list items`:
@@ -149,10 +136,6 @@ A cooler version of an image with a caption is `figure`, look it up!
 </figure>
 ```
 
----------
-Time: 5min
-Total: 25min
-
 # Part 7 - ids and classes
 Perhaps the most used attributes of all are ids and classes.
 `id`s mark a tag as a *single*, unique, important item on your page. `class`es are for denoting a bunch of related tags, and can appear more than once per page. They are most commonly used for grabbing styles as you'll see tomorrow.
@@ -175,10 +158,6 @@ Both `id`s and `class`es are used to call out elements on pages so that they can
 
 `id` = one name per page, one per tag
 `class` = multiple per page, multiple space separated names per tag
-
----------
-Time: 5min
-Total: 30min
 
 # Part 8 - links
 Pages often link to others with `hyperlink anchor` tags. These combine everything we've learned so far. They need attributes to send us along, and text to tell us where to go
@@ -206,10 +185,6 @@ Links can also be nested, but will still flow seamlessly in the final document.
 
 Link text should *always* be descriptive of where you're going, never just put "click here."
 
----------
-Time: 10min
-Total: 40min
-
 # Part 9 - Properly formatted document
 The way that HTML works is it's a "document" filled with "tags". Let's start simple with some boilerplate to set up our document
 
@@ -235,9 +210,6 @@ The `body` tag is where we put all the stuff we just wrote before! This is where
 
 vscode users: start with an empty document, type `html` and then from the popup select `html:5`
 
----------
-Time: 5min
-Total: 45min
 
 # Part 10 - Semantic vs Non Semantic
 So far, all the tags we've made were "semantic" that is to say that their name told us about their function: `h` tags are headings, `a` are links, `p` are paragraphs. However, there's another kind of tag that conveys no meaning: non-semantic. Pretty much the only ones you'll see are `div` and `span`. These are just for grouping other related tags together (div) or calling out a particular section of text (span).
@@ -266,8 +238,4 @@ Non-semantic tags should only be used for grouping or grabbing parts of text. Do
 ```
 
 `div` and `span` are pretty much the only non-semantic tags you'll use, but there are SO MANY more semantic tags to see! We haven't even touched forms and buttons for interactivity yet. Your HW will go over more semantic elements like `main` and `nav`, so make sure to do it!
-
----------
-Time: 5min
-Total: 50min
 
