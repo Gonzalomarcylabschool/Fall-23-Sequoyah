@@ -1,12 +1,12 @@
-# Lecture Prep 2.0.0 - Intro To HTML
+# Intro To HTML
 [Lecuture slides](https://docs.google.com/presentation/d/12g2UpY90bBVzsi8l9rpqpi5HBFPd1nJYpeNhgPRVC4g/edit?usp=sharing)
 
-# Part 1 - What is HTML?
+## What is HTML?
 > The internet is made up of billions and billions of pages. But just like Google sheets, we need some way of *writing* those pages. The browser needs some way to know what it's looking at and how it should display it to the user. Is this text a heading? A quote? A list? HTML tells the browser exactly what it's looking at. JS lets us add interactivity with dynamic scripts, and css lets us style our pages to look nice, but the *content* comes from HTML documents. So in order to show our users all our cool applications, first, we have learn to create our own HyperText Markup Language documents, or HTML pages!
 
  Create a document and follow along with me to see all the tags in action. Nothing in here is complicated, it's all just showing the features so you can write them down and start using them.
 
-# Part 2 - Creating and opening a file
+## Creating and opening a file
 `index.html` is a magic name that servers will automatically look for if a user enters a domain without a file extension: test.com === test.com/index.html. Modern routing systems mess with this a bit, but `index.html` is still almost universally the entrypoint for applications.
 
 You can open the file either by clicking on it or using `open index.html` from the console. That will open it as a file (browser says file://). That's fine for small projects, but some more advanced features need the file to be "hosted" by a server. You could build an express server (and we will eventually!), but you can also use standalone products that build a static server. like
@@ -18,7 +18,7 @@ A server that only hosts static (unchanging) assets like html and js files is ca
 
 We'll use live server on VSCode because it does "hot reloading," which means every time we save our document, the server will reload our browser window for us.
 
-# Part 3 - Anatomy of a tag: h and p
+# Anatomy of a tag: h and p
 The base "unit" in html is called the "tag." A tag usually has an opening and a closing tag
 
 ```html

@@ -1,6 +1,8 @@
-# Lecture Prep 2.0.1 - Intro To CSS
+# 2.0.1 - Intro To CSS
 
-# Part 0 - What is CSS?
+[Assignment](https://flukeout.github.io/) get up to level 20. 
+
+# What is CSS?
 CSS stands for "Cascading Style Sheets." We'll talk about what "cascading" means in this context, but you can guess what styles are! CSS is made up of "rules" that tell our browser how to display our HTML. You can "select" certain things on the page like tags, ids, classes, and more, and then apply styles to them.
 
 The browser already has some default styles (like why `h1`s are bigger than `h2`s), but we can override those styles with our own. We can change the color, the size, the font, the position, and more of anything on the page.
