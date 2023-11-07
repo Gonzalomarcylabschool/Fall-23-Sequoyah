@@ -1,0 +1,38 @@
+/* tag selectors */
+h1 {
+  color: blue;
+}
+p#subtitle {
+  color: red;
+}
+
+p {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: aqua;
+  padding: 20px;
+  border: 5px green solid;
+  margin: 0px;
+  width: 200px;
+}
+/* class sectors */
+.cool {
+  color: blue;
+  font-weight: normal;
+}
+/* id sectors */
+#header {
+  border: 5px;
+}
+
+/* parent element selector */
+ul.links-list > li {
+  color: plum;
+}
+
+
+a { color: black; }
+a:visited { color: greenyellow } /* a link once a user has visited the page */
+a:hover { color: paleturquoise } /* a link when the mouse hovers over it */
+a:active { color: burlywood; } /* a link the moment it is clicked */
