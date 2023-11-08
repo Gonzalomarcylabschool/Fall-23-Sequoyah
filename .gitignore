@@ -1,3 +1,9 @@
 practice
 node_modules
 .env
+
+.DS_STORE
+
+sandbox.*
+
+live-lecture/
