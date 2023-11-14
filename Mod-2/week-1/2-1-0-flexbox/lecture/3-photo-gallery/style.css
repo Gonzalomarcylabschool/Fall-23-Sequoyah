@@ -11,7 +11,7 @@ ul {
 
 li {
   height: 40vh;
-  flex-grow: 1;
+  flex: 10 1 ;
 }
 
 img {
@@ -36,9 +36,9 @@ by the current document's styles.
 
 
 li:last-child {
-  flex-grow: 10;
+  flex-grow: 2;
 }
-
+/* 
 @media (max-aspect-ratio: 1/1) {
   li {
     height: 30vh;
@@ -66,4 +66,4 @@ li:last-child {
     max-height: 75vh;
     min-width: 0;
   }
-}
+} */

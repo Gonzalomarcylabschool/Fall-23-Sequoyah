@@ -19,22 +19,16 @@
 
 ## Part 0 - Explore Flexbox on Youtube
 
-> **Pacing:** 5 minutes (5 minutes total)
-> **Learning Objectives:** See flexbox in the real world
-> * Open https://www.youtube.com/ and see how elements shift in size as you resize the window. Point out the the vidoes that are aligned next to each other are NOT inline, they are flex items.
+https://www.youtube.com/ 
 
 Flex does two things: 
 1. puts things in a row (or column if you need to)
 2. makes things stretchy
 3. control the relative size of elements in a row
 
-![](./lecture/images/flex-grow.gif)
+![flex-grow example](./lecture/images/flex-grow.gif)
 
 ## Part 1 - Flex Containers and Flex Items
-
-> **Pacing**: 5 minutes (10 minutes total)
-> **Learning Objective:** identify flex containers / flex items
-> * Briefly define what flexbox is and make sure they can identify the terms "flex container" and "flex items"
 
 * Flexbox is used for **organizing elements in a single direction**
 * `display: flex` defines a **flex container**. 
@@ -45,16 +39,11 @@ Flex does two things:
 
 ## Part 2 - Demo Styling a Navbar using Flexbox Container Properties
 
-> **Pacing:** 15 minutes (25 minutes total)
-> **Learning Objective:** see what flexbox can do
-> * Have fellows follow along with you. This is just to show them what flexbox can do. After, we'll see what makes flexbox work. Open up the `1-navbar/` directory and the `index.html` and `index.css` files. 
-> * Serve using live preview. Start by uncommenting the styles of the `ul` to show how `display: flex` styles the the block elements to be aligned horizontally. Then insert a gap. Then do the same for the `header`, discussing briefly `justify-content` and `align-items`
-
 * Ordinarily, elements are `display: block` elements are stacked on top of each other.
 * `display: flex` arranges flex items horizontal
 * Making a navigation bar is one of the common applications of flexbox since **we typically want to align navigation elements horizontally**.
 
-![Without flexbox, items are aligned vertically. WIth flex box, we can align items horizontally with nice spacing](lecture/images/flexbox-comparison.png)
+![Without flexbox, items are aligned vertically. With flex box, we can align items horizontally with nice spacing](lecture/images/flexbox-comparison.png)
 
 ```css
 header {
