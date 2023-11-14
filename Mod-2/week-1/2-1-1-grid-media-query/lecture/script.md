@@ -11,6 +11,16 @@
 - [Part 4 - Spanning Rows and Columns](#part-4---spanning-rows-and-columns)
 - [Bonus! - Flexbox Media Query Challenge](#bonus---flexbox-media-query-challenge)
 
+## Part 0 - Grid + Media Queries Demo!
+
+> **Pacing**: 10 minutes (10 minutes total)
+> **Learning Objectives:** See what grid can do, see what media queries can do. Set up the rest of the lecture to dive into these concepts.
+> * Using live server, render the page found in `0-photo-gallery-grid/` and demonstrate how the number of columns shown changes as the screen is resized. Have fellows follow along with their own copy if they would like.
+> * Explain that `display: grid` turns the `ul` into a grid
+> * You can mention the 2 grid properties shown in this example: `grid-template-columns`, `grid-auto-rows` but don't spend too much time. The next section you'll be able to go over it more in-depth
+> * Remind fellows that they have already seen `gap` in the flexbox lecture.
+> * Briefly go over the concept of media queries and ask fellows why these may be useful.
+> * Take questions but be mindful of time.
 
 * **CSS Grid** is a `display` type that is useful for making grids (duh)!
 * **Media queries** allow us to apply CSS _in response_ to changes to the device's screen size (and other things too!). 
@@ -19,7 +29,11 @@
 ![An example of a website using grid to make a photo gallery. There are 5 columns and 5 rows.](images/grid-photo-gallery-example.png)
 
 
+## Part 1 - Grid vs Flexbox
 
+> **Pacing**: 5 minutes (15 minutes total)
+> **Learning Objectives:** Compare and contrast grid and flexbox. Understand that grid defines a layout with rows AND columns.
+> * Use the diagram below to explain the difference between flexbox and grid. Pose the question to the group, how many rows/columns are in the example pictured above?
 
 * Flexbox is a `display` type that allows us to arrange items in rows OR columns
 * Grid is a `display` type allows us to arrange items in rows AND columns
@@ -36,6 +50,13 @@
 </details><br>
 
 ## Part 2 - Grid Template Columns and Fractional Units
+
+> **Pacing**: 15 minutes (30 minutes total)
+> **Learning Objectives:** Learn how to define columns using fractional units.
+> * Using live server, render the page found in `3-grid-template-columns/`.
+> * This demo is all about showing how to define columns using fractional units. If time, you can show how %-based columns will cause an overflow when there is a `gap`. 
+> * Have fellows intuit when rows are created automatically and what the default row height will be.
+> * Show `grid-auto-rows: 1fr` to achieve equal-height rows.
 
 * Grid containers define their columns and rows
 * `grid-template-columns` defines:
@@ -77,6 +98,13 @@ grid-template-columns: 1fr 2fr 2fr 1fr; /* make 4 equal-sized columns */
 
 ## Part 3 - Media Queries
 
+> **Pacing**: 10 minutes (40 minutes total)
+> **Learning Objectives:** Demonstrate how to create media queries using min-width and max-width
+> * Using live server, render the page found in `3-media-queries/`
+> * Have fellows look at the code in small groups and play with resizing their screen to see how the styles are applied
+> * Have fellows update the breakpoints to match bootstrap's breakpoint sizes.
+> * Review flexbox `flex-direction` and have fellows change the flex direction to `row` for Medium devices
+
 * **Media queries** allow us to apply CSS _in response_ to changes to the device's screen size (and other things too!). Media queries are how we implement **responsive web design**, ensuring usability across all devices.
 
 * **Breakpoints** are points at which a responsive web design will shift.
@@ -113,6 +141,10 @@ To set the number of grid columns to 2 at 700 pixels, we need to add a second ru
 </details><br>
 
 ## Part 4 - Spanning Rows and Columns
+
+> **Pacing**: 15 minutes (55 minutes total)
+> **Learning Objectives:** Learn how to define columns using fractional units.
+> * Using live server, render the page found in `4-responsive-grid/`.
 
 * In a grid, the position of grid-items can span multiple rows and/or columns
 
