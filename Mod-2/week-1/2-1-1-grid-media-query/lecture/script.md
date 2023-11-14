@@ -53,7 +53,7 @@
 
 > **Pacing**: 15 minutes (30 minutes total)
 > **Learning Objectives:** Learn how to define columns using fractional units.
-> * Using live server, render the page found in `3-grid-template-columns/`.
+> * Using live server, render the page found in `2-grid-template-columns/`.
 > * This demo is all about showing how to define columns using fractional units. If time, you can show how %-based columns will cause an overflow when there is a `gap`. 
 > * Have fellows intuit when rows are created automatically and what the default row height will be.
 > * Show `grid-auto-rows: 1fr` to achieve equal-height rows.
