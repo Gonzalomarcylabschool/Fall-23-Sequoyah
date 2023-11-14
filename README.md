@@ -96,3 +96,80 @@ Labs are mini-projects that will give you an opportunity to put your learnings t
 * **11/1/23 - Review** [Repo](https://github.com/Gonzalomarcylabschool/Fall-23-Sequoyah/tree/main/Mod-1/week-3/review-day-3)
   
 * **11/2/23 - Mod 1 Assessment**
+
+## Mod 2 - Core: HTML, CSS, and DOM Manipulation
+
+#### Resources
+* [Learn: Intro to Accessibility Video](https://www.youtube.com/watch?v=1A6SrPwmGpg&t=802s&ab_channel=WebDevSimplified)
+* [Learn: Flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU&ab_channel=KevinPowell)
+* [Learn: Grid the easy way](https://www.youtube.com/watch?v=rg7Fvvl3taU&ab_channel=KevinPowell)
+* [Practice: CSS Diner](https://flukeout.github.io/)
+* [Practice: Flexbox Froggy](https://flexboxfroggy.com/)
+* [Practice: CSS Grid Garden](https://cssgridgarden.com/)
+* [Tutorial: Building a Responsive Hamburger Nav Menu (flexbox and media queries)](https://www.youtube.com/watch?v=At4B7A4GOPg)
+
+#### Labs
+* [Lab 1: My First Site](https://github.com/The-Marcy-Lab-School/2-0-2-lab_first-site)
+* [Lab 2: Responsive Product Page](https://github.com/The-Marcy-Lab-School/2-1-0-lab_product-page)
+
+#### Week 0
+* **11/6/23 - Intro to HTML** | [Key Terms](./mod-2/2-0-0-html/notes.md) | [Code](./mod-2/2-0-0-html/lecture-code/) | [Recording](https://youtu.be/KYnf0Wg7720)
+* **11/7/23 - Intro to CSS** | [Key Terms](./mod-2/2-0-1-css/notes.md) | [Code](./mod-2/2-0-1-css/lecture-code/) | [Recording](https://youtu.be/KQdYKILn3d0)
+* **11/8/23 - CSS Positioning** | [Key Terms](./mod-2/2-0-2-css-positioning/key-terms.md) | [Code](./mod-2/2-0-2-css-positioning/lecture-code/) | [Recording](https://youtu.be/MCMH5kV72bQ)
+* **11/9/23 - Accessibility & HTML Best Practices** | [Lecture Notes](./mod-2/2-0-3-accessibility-html-best-practices/README.md) | [Code](./mod-2/2-0-3-accessibility-html-best-practices/lecture/)
+
+#### Week 2
+
+* **11/13/23 - Flexbox** | [Notes](./mod-2/2-1-0-flexbox/README.md) | [Code](./mod-2/2-1-0-flexbox/lecture/) | [Recording](https://youtu.be/GldHyR6j9Jo) | [Lab 1 Lab Review Recording]
+* **11/14/23 - Grid & Media Queries** | [Notes](./mod-2/2-1-1-grid-media-queries/README.md) | [Code](./mod-2/2-1-1-grid-media-queries/lecture/)
+* **11/13/23 - Putting it All Together** | Slides
+* **11/13/23 - Wireframing and Design** | Slides
+
+#### Week 3
+
+#### Week 4
+
+---
+
+
+## Mod 3 - Core: Asynchronous JavaScript
+
+---
+
+## Mod 4 - Core: Project Week
+
+--- 
+
+## Mod 5 - Data Structures & Algorithms
+
+--- 
+
+## Mod 6 - Backend: Object Oriented Programming
+
+--- 
+
+## Mod 7 - Backend: SQL
+
+--- 
+
+## Mod 8 - Backend: Express
+
+--- 
+
+## Mod 9 - Backend: Project Week
+
+--- 
+
+## Mod 10 - Advanced: React
+
+--- 
+
+## Mod 11 - Advanced: Project Week
+
+---
+
+## Civic Tech Hackathon
+
+--
+
+## Capstone
