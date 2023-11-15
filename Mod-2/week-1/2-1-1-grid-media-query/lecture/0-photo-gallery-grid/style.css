@@ -22,7 +22,7 @@ ul {
   /* grid-auto-rows: 1fr;  */
   
   /* just like flexbox! */
-  /* gap: 5px;  */
+  gap: 5px; 
 }
   
 

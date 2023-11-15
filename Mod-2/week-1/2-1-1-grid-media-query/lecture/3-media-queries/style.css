@@ -25,6 +25,9 @@
   .box {
     background: orchid;
   }
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media (min-width: 800px) {
   .box {
@@ -35,6 +38,9 @@
 @media (min-width: 900px) {
   .box {
     background: darkviolet;
+  }
+  .container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 1000px) {
