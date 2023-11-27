@@ -127,7 +127,17 @@ Labs are mini-projects that will give you an opportunity to put your learnings t
 
 #### Week 3
 
+* **11/28/23 - Intro to DOM**
+* **11/29/23 - JS Events**
+* **11/30/23 - Forms**
+
+
 #### Week 4
+
+* **ESModules & Vite**
+* **LocalStorage & Layers**
+* **DOM Review**
+* **Git Workflows**
 
 ---
 
