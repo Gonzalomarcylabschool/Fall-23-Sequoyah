@@ -1,90 +1,94 @@
-# Intro to The Document Object Model (DOM)
+# Lecture Prep 2.2.0 - Intro To The DOM
 
-The browser pulls in HTML documents, parses them, and creates object models of the pages in its memory. This model is the Document Object Model (DOM).
-
-According to the Document Object Model (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one. The text inside a tag is an object as well.
-
-Each element in the HTML document is represented by a DOM node. These nodes can be accessed and changed using JavaScript.
-
-When the model is updated, those changes are reflected on screen.
-
-## The why
-
-There are several reasons why someone might need to learn how to use the Document Object Model (DOM). It is a major part of Front-End and Full-Stack development for the following reasons:
-
-Dynamic web pages: The DOM provides a way to manipulate the content, structure, and style of a web page dynamically, without requiring a page reload. This is particularly useful for creating rich and interactive user experiences.
-
-Cross-browser compatibility: The DOM is a standard maintained by the World Wide Web Consortium (W3C), and is supported by all modern browsers. By using the DOM to manipulate web pages, developers can ensure that their code will work consistently across different browsers.
-
-Better organization: The DOM provides a way to structure and organize the content of a web page in a hierarchical manner, making it easier to understand and maintain complex web applications.
-
-Improved accessibility: The DOM allows developers to programmatically manipulate a web page to make it more accessible for users with disabilities. For example, by using JavaScript and the DOM, developers can provide alternative text for images, or create custom keyboard navigation for users who cannot use a mouse.
-
-Server-side rendering: The DOM can also be used on the server-side to generate HTML that can be sent to the browser for rendering. This is particularly useful for web applications that need to provide a fast and responsive user experience, even on slow network connections.(More on this in future units)
-
-## Back to HTML
-
-First lets make a new file and practice doing some HTML.
-1. how do we add an element that would be the heading of the page?
-2. how do we add an element that just have some text?
-3. how do we add an element with an image?
-
-## Where is the DOM
-
-1. inspect a page
-2. check the elements 
-3. delete some elements
-
-## How do we accesses the DOM
-
-One of the tools we have been using for some time now is the Developer tools in the browser. This allows us to log to the console, inspect elements, and use snippets. Using this tool lets see how the DOM works, test it and debug if need.
-
-1. Review the window
-2. Check the console object
-3. See the document object
-4. document.domain
-5. document.url
-6. So what is the document? (hint... con)
-7. `let doc = new Document();
+- [Lecture Prep 2.2.0 - Intro To The DOM](#lecture-prep-220---intro-to-the-dom)
+    - [Part 1 - What is the DOM?](#part-1---what-is-the-dom)
+    - [Part 2 - Opening an HTML Page](#part-2---opening-an-html-page)
+    - [Part 3 - The chrome console](#part-3---the-chrome-console)
+    - [Part 4 - Link a script](#part-4---link-a-script)
+    - [Part 5 - Selecting Single Elements](#part-5---selecting-single-elements)
+    - [Part 6 - Selecting multiple elements](#part-6---selecting-multiple-elements)
+    - [Part 7 - Creating a new element](#part-7---creating-a-new-element)
 
 
-<details><summary>summary</summary>
-We can use the Developer Tools to access, test and debug the DOM.
-The document is a built in variable that is given to us by the browser.
-It is an instance of the Document class and has many built in properties and methods that we will use to manipulate our web pages.
-</details>
+### Part 1 - What is the DOM?
 
-Before moving on let take a look at how the values for the `document.url` property are different on a few pages. 
+- A brief overview of the difference between the html page and the DOM (html page is static, the DOM is dynamic)
+- The DOM gives us access to a lot of great methods and allows us to act upon the nodes
+- This is conceptual, but they will have 0 context so **don’t dwell on this**, just show the image of the node tree vs the image of the same in html
 
-### Any Question?
+Time: 5min<br/>
+Total: 5min
 
-## How can we Visualize the DOM?
+### Part 2 - Opening an HTML Page
 
-The short answer here is pencil and paper. As you know based on everything we do here, that not the whole answer. We have mentioned this before, the DOM is a tree and all of the elements are nodes. But how do we access the them, how can we see them? let go back to the dev tools.
+This is literally just so they know what they’re doing when they’re testing. Have the bare bones HTML already written so there are things to play with. Only add the scripts.
 
-1. document.children
-2. document.children[0]
-3. document.children[1]
+- Show them how to open the page in case they forgot (it’s been a while)
+  - the `open` command from the terminal
+  - clicking on the physical file
+  - liveServer vscode
+- The idea here is that, for now, there’s no magic, it’s just a file that the browser knows how to read
+- More importantly, remind them that for now you have to save and refresh the page to see changes unless you use liveServer
 
-<details><summary>visual</summary>
-![the DOM](https://www.kirupa.com/cdn-cgi/mirage/83b7d9f226171f8d04b44b92cc4c76aa4b4f6206212b37f2317604a14b644e95/1280/html5/images/DOM_js_72.png)
-</details>
+Time: 5min<br/>
+Total: 10min
 
-## Quick CFU
+### Part 3 - The chrome console
 
-What is the DOM and why should we learn to manipulate it?
+- Show them the main features
+  - Console - where messages go and where you can run one liners, just like a Node REPL
+    - show that the elements can be interactive by logging an array of objects and clicking to open
+    - the examples are given in `console-interactive-example.js` that you can just paste in
+  - Elements - Where the rendered DOM is visible, this will actively change
+    - As you highlight elements, they highlight on the page
+    - The element selector inspector (No idea what it’s called, but the cursor you can click to select elements on the page next to the mobile view toggle)
+  - The mobile view toggle
 
-<details><summary>some answers</summary>
-* Manipulate webpages using JS
-* Makes Dynamic webpage
-* Dynamic webpages have a better User experience.
+Time: 10min<br/>
+Total: 20min
 
-lets look at Wikipedia vs Youtube
-</details>
+### Part 4 - Link a script
 
-What engineers would work with the DOM most often?
+We need to use some JS to manipulate the dom, so let's add a script tag and link to an actual `index.js` script to the tail of the body
+  - explain there are lots of ways to load scripts, this is the simplest for now, but they'll learn more soon!
+  - importance of using **relative** links, so either `./file.js` or nothing `'file.js'`
+- Leave the original, explain that it’s possible to have multiple scripts, like 3rd party libraries
+  - however, discourage doing this for now (we’ll explain why later when we introduce modules)
 
-<details><summary>some answers</summary>
-* Front-end Developers
-* Full-Stack
-</details>
+
+Time: 3min<br/>
+Total: 23min
+
+### Part 5 - Selecting Single Elements
+
+- use `document.getElementById` to grab an id
+- Explain the HTMLElement can be expanded, has properties like `id` and `textContent`
+- Then show `document.querySelector()` and how it uses the same css selectors
+  - Generally tell them to use querySelector for consistency across the codebase
+
+Time: 12min<br/>
+Total: 35min
+
+### Part 6 - Selecting multiple elements
+
+- use `document.querySelector` to grab multiple elements
+    - grab all `li` then use a class instead
+- Warn that a `NodeList` is **not** an array, and needs to be converted for HOF to work
+  - annoyingly it's *kind* of an array so there's like a `.forEach` method and indexes
+  - Use `Array.from()` or `[…]` to convert to an array. Tell them to stick to spread as it’s modern
+
+Time: 10min<br/>
+Total: 45min
+
+### Part 7 - Creating a new element
+
+- Explain the pattern
+    - Create: `document.createElement`
+    - Modify: add an id, class, and text
+    - Add: `parentEl.append`
+- Do this in a function and call it on the body and a `div`
+- You can also just edit existing elements by grabbing something and changing the text content
+- If time, show that you can use `innerHTML` to add html to an element but warn them that you must be careful with this as it can insert live, dangerous html code. Tell them to never use this with unsanitized user input
+
+Time: 15min<br/>
+Total: 60min
