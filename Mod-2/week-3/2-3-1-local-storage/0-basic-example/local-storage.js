@@ -12,7 +12,7 @@ const getLocalStorageKey = (key) => {
 }
 
 export const getNames = () => getLocalStorageKey('names');
-export const setNames = (names) => getLocalStorageKey('names', names);
+export const setNames = (names) => setLocalStorageKey('names', names);
 
 export const initializeNames = () => setNames(['ben', 'gonzalo', 'motun']);
 

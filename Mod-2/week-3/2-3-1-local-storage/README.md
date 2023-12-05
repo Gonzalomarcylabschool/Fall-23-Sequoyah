@@ -54,15 +54,19 @@ console.log(str.toString());  // 'purple'
 console.log(arr.toString());  // '1,2,3'
 console.log(obj.toString());  // '[object Object]'
 
-console.log(JSON.stringify(arr)); // [1, 2, 3]
-console.log(JSON.stringify(obj)); // { name: 'ben' }
 ```
 
 However, the `JSON.stringify()` method preserves the structure of Arrays and Objects.
 
+```js
+console.log(JSON.stringify(arr)); // [1, 2, 3]
+console.log(JSON.stringify(obj)); // { name: 'ben' }
+```
+
+
 ## Stringify and Parse
 
-Before storing values in `localStorage`, we should `JSON.stringify()` them.
+Before storing values in `localStorage`, we need to `JSON.stringify()` them.
 
 ```js
 const instructors = ['ben', 'gonzalo', 'motun', 'zo', 'carmen'];
