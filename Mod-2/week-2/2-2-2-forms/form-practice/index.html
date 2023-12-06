@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="my-form">
+    <h2 aria-label="my-form">My Form</h2> <!-- Form Title -->
+    <!-- You need an input type for each label tag -->
+    <div>
+      <label for="name">Name</label> <!-- Input Field Name -->
+      <input type="text" name="name" id="name"> <!-- Input Field -->
+    </div>
+    <label for="hungry">
+      Are you hungry?
+      <input type="checkbox" id="hungry" name="hungry">
+    </label>
+    <button>submit</button>
+  </form>
+  <script src="index.js"></script>
+</body>
+</html>

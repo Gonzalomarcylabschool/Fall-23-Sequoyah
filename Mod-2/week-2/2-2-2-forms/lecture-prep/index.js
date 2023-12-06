@@ -1,5 +1,5 @@
 const handleSubmit = (e) => {
-  e.preventDefault();
+  e.preventDefault(); // eventListener must exist for this to work
   const form = e.target;
 
   // For super simple forms, you can also just grab it by input name on the form:
@@ -19,7 +19,7 @@ const handleSubmit = (e) => {
 }
 
 const newWayForm = document.querySelector('#new-way');
-// newWayForm.addEventListener('submit', handleSubmit);
+newWayForm.addEventListener('submit', handleSubmit);
 
 
 // show that we can grab inputs whenever they change, not just submissions
