@@ -21,7 +21,18 @@ export const addName = (name) => {
   setNames([...names, name]);
 }
 
-export const removeName = (nameToRemove) => {
+export const removeAllMatchingName = (nameToRemove) => {
   const names = getNames().filter((name) => name !== nameToRemove);
   setNames([...names]);
+}
+
+export const removeName = (nameToRemove) => {
+  const current = getNames()
+  const idx = current.indexOf(nameToRemove);
+  const names = current.filter((_, i) => i !== idx);
+  if(idx > -1){
+    setNames([...names]);
+  } else{
+    console.log('not found')
+  }
 }

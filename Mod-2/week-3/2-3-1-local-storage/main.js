@@ -7,7 +7,8 @@ const user = {
 const num = 1;
 // localStorage.setItem('instructors', JSON.stringify(instructors));
 // localStorage.setItem('user', JSON.stringify(user));
-// localStorage.setItem('number', 1);
+localStorage.setItem('number', 1);
+localStorage.setItem('stringNumber', '1');
 
 const storedInstructors = JSON.parse(localStorage.getItem('instructors'));
 const storedUser = JSON.parse(localStorage.getItem('user'));
