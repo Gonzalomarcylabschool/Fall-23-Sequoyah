@@ -11,8 +11,12 @@ const getLocalStorageKey = (key) => {
   }
 }
 
+// Shorthand exports (One Line)
 export const getNames = () => getLocalStorageKey('names');
 export const setNames = (names) => setLocalStorageKey('names', names);
+// Added these
+export const getCounter = () => getLocalStorageKey('counter')
+export const setCounter = (count) => setLocalStorageKey('counter', count)
 
 // export const initializeNames = () => setNames(['ben', 'gonzalo', 'motun']);
 

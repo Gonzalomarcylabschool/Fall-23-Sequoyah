@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" src="./main.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <form id="name">
+        <h2 id="new-header">Local Storage form add name</h2>
+        <p> Please add a name </p>
+    
+        <label>
+          Name
+          <input type="text" id="name" name="name" placeholder="Name">
+        </label>
+        <button type="submit" class="submit">Submit</button>
+      </form>
+      <form id="removeName">
+        <h2 id="new-header">Local Storage form remove name</h2>
+        <p> Please remove a name </p>
+    
+        <label>
+          Name to be removed
+          <input type="text" id="remove" name="remove" placeholder="Name to be removed">
+        </label>
+        <button type="submit" class="submit">remove</button>
+        <button type="button" id="removeAll">remove all</button>
+      </form>
+      <button id="reset">Reset</button>
+      <main>
+        
+      </main>
+    </div>
+  </body>
+</html>
