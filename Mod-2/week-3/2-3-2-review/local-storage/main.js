@@ -2,8 +2,6 @@ import { getNames, setNames, addName, removeName, removeAllMatchingName } from "
 import { removeNamefromDOM, addNewP, clearMain } from "./utils.js";
 
 const mainPage = document.querySelector('main');
-const names = [];
-
 
 const restoreFromLocal = () => {
   if(!getNames()) return;
@@ -17,7 +15,6 @@ const handleAddSubmit = (e) => {
 
   const formObj = Object.fromEntries(new FormData(e.target));
 
-  names.push(formObj.name);
   addNewP(formObj.name, mainPage);
   if(!getNames()){
     setNames( [formObj.name] );
@@ -34,21 +31,23 @@ const handleRemoveSubmit = (e)=> {
  
   const formObj = Object.fromEntries(new FormData(e.target));
 
-  removeName(formObj.remove);
   removeNamefromDOM(formObj.remove, true);
+  removeName(formObj.remove);
 
   e.target.reset();
 }
 
 const handleRemoveAll = (e)=> {
   e.preventDefault();
-  const toBeRemoved = document.querySelector('#remove').value
+  const toBeRemoved = document.querySelector('#remove').value // target the input and get the value 
+
   removeNamefromDOM(toBeRemoved);
   removeAllMatchingName(toBeRemoved);
   
 }
 
 const handleReset = (e) => {
+  e.preventDefault();
   clearMain('main');
 }
 
@@ -63,4 +62,4 @@ const main = () => {
 
 }
 
-main()
+main();

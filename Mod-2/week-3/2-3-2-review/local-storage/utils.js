@@ -1,9 +1,9 @@
-export const removeNamefromDOM = (name, removeAll = false) => {
+export const removeNamefromDOM = (name, dontRemoveAll = false) => {
   const elementToRemove = [...document.querySelectorAll('p')];
   const all = elementToRemove.filter((el) => el.textContent === name);
   for (const element of all) {
       element.remove();
-      if(removeAll){
+      if(dontRemoveAll){
         break
       }
   }
@@ -17,8 +17,13 @@ export const addNewP = (text, where) => {
 
 export const clearMain = (where) => {
   const parent = document.querySelector(where);
-  while ( parent.firstChild){
+  while ( parent.firstChild ){
     parent.removeChild(parent.firstChild);
   }
   localStorage.clear();
+}
+
+export const getEl = (element) => document.querySelector(element);
+export const createElement = (text = '', ) => {
+
 }
