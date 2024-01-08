@@ -1,6 +1,6 @@
 # Promises
 
-Clone this done [here](https://github.com/The-Marcy-Lab-School/3-0-0-intro-to-promises-f23)
+Clone this repo down [here](https://github.com/The-Marcy-Lab-School/3-0-0-intro-to-promises-f23)
 
 **Table of Contents**
 
