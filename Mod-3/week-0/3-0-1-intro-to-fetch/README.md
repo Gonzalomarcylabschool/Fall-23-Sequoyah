@@ -1,5 +1,7 @@
 # Fetch
 
+Clone this repo down [here](https://github.com/The-Marcy-Lab-School/3-0-0-intro-to-promises-f23)
+
 ## Cross-Application Communication (20 min)
 
 Okay now we’re really getting somewhere. So far we’ve been writing programs that consist ENTIRELY of code that we write (or download via npm). Now, we will enter the world of 
