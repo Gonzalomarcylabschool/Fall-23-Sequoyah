@@ -1,4 +1,6 @@
 const body = document.body;
+
+const appDiv = document.querySelector('#app');
 // const arr = [1, 2, 3, 4]
 // arr.forEach((each) => console.log(each))
 
@@ -68,11 +70,20 @@ const fetchData = async (url, options = {}) => {
 
 const dataJson = await fetchData('https://reqres.in/api/users')
 
-console.log(dataJson.data[1]);
-
-body.innerHTML =`
-<h2>User id: ${dataJson.data[1].id}</h2>
-<p>Name: ${dataJson.data[1].first_name}</p>
-<p>Email:${dataJson.data[1].email}</p>
-
-` 
+console.log(dataJson.data);
+dataJson.data.forEach(user => {
+  const div = document.createElement('div');
+  div.innerHTML = `
+      <h2>${user.first_name} ${user.last_name}</h2>
+      <img src='${user.avatar}'>
+      <h3>User id: ${user.id}</h3>
+      <p>Email: ${user.email}</p>
+  `;
+  appDiv.append(div);
+});
+// body.innerHTML =`
+// <h2>User id: ${dataJson.data[1].id}</h2>
+// <img src='${dataJson.data[1].avatar}'>
+// <p>Name: ${dataJson.data[1].first_name} ${dataJson.data[1].last_name}</p>
+// <p>Email:${dataJson.data[1].email}</p>
+// ` 
