@@ -1,7 +1,5 @@
 import { fetchData } from './utils.js'
 
-
-
 export const renderFromFetch = async () => {
   const dataJson = await fetchData('https://reqres.in/api/users')
 
