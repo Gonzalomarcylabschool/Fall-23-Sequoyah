@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunrise/Sunset</title>
+    <script defer src="index.js"></script>
+    <!-- get rid of the annoying favicon not found error -->
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body>
+    <main>
+      <h1>Sunrise and Sunset Times</h1>
+      <p>Example using the <a href="https://sunrisesunset.io/api/" target="_blank">SunriseSunset.io API</a>.</p>
+      <section>
+        <form id="lat-long-form" aria-labelledby="lat-long-header">
+          <h2 id="lat-long-header">Select A Latitude & Longitude</h2>
+          <label for="latitude">Latitude: </label>
+          <input type="number" step="any" name="latitude" id="latitude-input" />
+          <label for="longitude">Longitude: </label>
+          <input type="number" step="any" name="longitude" id="longitude-input" />
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <section>
+        <p>
+          Sunrise: <strong><span id="sunrise"></span></strong>
+        </p>
+        <p>
+          Sunset: <strong><span id="sunset"></span></strong>
+        </p>
+        <p>Raw data from API response:</p>
+        <code id="raw-output"></code>
+      </section>
+    </main>
+  </body>
+</html>
