@@ -5,12 +5,13 @@
   - [Promise Syntax: Making a Promise](#promise-syntax-making-a-promise)
   - [Promise Syntax: Using a Promise](#promise-syntax-using-a-promise)
   - [Chaining Promises](#chaining-promises)
+- [HTTP Review](#http)
 - [Fetch](#fetch)
   - [Fetch with `.then()` and `.catch()`](#fetch-with-then-and-catch)
   - [Fetch with `async`/`await` and `try`/`catch`](#fetch-with-asyncawait-and-trycatch)
   - [Benefits of `async` and `await`](#benefits-of-async-and-await)
   - [POST Requests](#post-requests)
-
+-[Render Data]
 
 ## Promise Overview
 
@@ -153,6 +154,96 @@ Promise.resolve("a") // The first promise resolves with "a"
 > Because the second-to-last `.then` callback doesn't return anything!
 
 </details><br>
+
+
+## HTTP
+
+HTTP stands for **H**yper********t********ext **T**ransfer **P**rotocol. It is the standard for communication over the internet. (Well HTTPS, the “secure” version, is now the standard).
+
+![The client sends a request with a URL and a verb. The server responds with the status code and the message body](./images/http-request-response-cycle.png)
+
+The HTTP Request/Response cycle is the pattern of communication used by two computers communicating using the HTTP protocol. It works like this:
+
+* The program/computer making the request is the **client**
+* That program/computer responding to the request is called the **server**
+* The request and response sent between the client and server each contain important information including:
+  * The **request URL** of the specific requested resource
+  * The **request verb** — what it wants the server to do (post something new, send back some data, update or delete something)
+  * The **response status code** (did the request succeed?)
+  * The **response body** (the data sent back to the client)
+
+In order for this to work
+
+- The server must already be up and running and ready to accept incoming requests.
+- The client must initiate a request. A server can’t reach out and send Responses  to clients on its own. It just waits for incoming requests.
+
+### HTTP Status Codes
+
+Every Response that we receive from a server will include a status code indicating how the request was processed. Was the resource found and returned? Was the resource not found? What there an error? Did the POST request successfully create a new resource? 
+
+Responses are grouped in five classes:
+
+- Informational responses (100 – 199)
+- Successful responses (200 – 299)
+- Redirection messages (300 – 399)
+- Client error responses (400 – 499)
+- Server error responses (500 – 599)
+
+Important ones to know are 200, 201, 204, 404, and 500
+
+### URLs
+
+Every URL has a few parts. Understanding those parts can help us fetch precisely the data we want.
+
+Consider this URL which tells us information about the sunrise and sunset at a particular [latitude and longitude](https://en.wikipedia.org/wiki/Geographic_coordinate_system#Latitude_and_longitude):
+
+```
+https://api.sunrise-sunset.org/json?lat=36.7201600&lng=-4.4203400&date=2023-3-15
+```
+
+Let's break it down:
+
+- `https://api.sunrise-sunset.org` — This is the **host**. It tells the client where the resource is hosted/located.
+- `/json` - This is the **path**. It shows what resource is being requested
+- `?lat=36.7201600&lng=-4.4203400&date=2023-3-15` - These are **query parameters** and this particular URL has 3: `lat`, `lng`, and `date`. Query parameters begin with a `?` are are separated with `&`. Each parameter uses the format `name=value`. Try changing the `date` parameter!
+
+When using a new API, make sure to look at that APIs [documentation](https://api.sunrise-sunset.org/) (often found at the host address) to understand how to format the request URL.
+
+## Kinds of Requests - HTTP Verbs
+
+HTTP requests can be made for a variety of purposes. Consider these examples related to Instagram:
+
+- The client requests to see all posts made by Beyonce (Read)
+- The client requests to post a new picture on their profile (Create)
+- The client requests to update a post they made yesterday (Update)
+- The client requests to delete a post they made yesterday (Delete)
+
+Each of these actions has an HTTP verb that is associated with it.
+
+- `GET` - Read
+- `POST` - Create
+- `PATCH` - Update
+- `DELETE` - Delete
+
+This HTTP verb or “method” is sent in the HTTP Request so that the server knows what kind of request it is receiving.
+
+The default behavior of using `fetch` is to make a `GET` request, but we can also make other kinds of requests by adding a second `options` argument to `fetch()`:
+
+```jsx
+const options = {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(myData)
+  }
+fetch(url, options)
+  .then(response => response.json())
+  .catch(console.error)
+```
+
+Most of this is also boilerplate (its mostly the same each time). The `method` determines the kind of request, the `headers` determines the type of data we are sending to the server (JSON), and the `body` determines *****what***** we send to the server. Note that it must be stringified first.  
+
 
 ## Fetch
 
@@ -313,6 +404,28 @@ postUser({ name: "morpheus", job: "leader" });
 
 </details><br>
 
+## Render Data
+
+Question: Can you just set the innerHTML or do you need to create isolated nodes one by one? The answer is: can you trust the data? If you know the data isn't user generated (like status codes) then innerHTML is ok, but if you're ever entering text that could've come from a user, use nodes for safety. No malicious JS is going to sneak into our pages!
+
+```js
+const p = document.createElement('p');
+p.textContent = 'info'
+
+document.body.append(p);
+
+
+//vs 
+
+const p = document.createElement('p');
+
+p.innerHTML = `
+<p>info</p>
+`
+```
+
+
+
 ## Sunrise Sunset Challenge
 
 Use the https://sunrisesunset.io/api/ API to build a sunrise/sunset application like the one shown below. It should:
@@ -324,3 +437,4 @@ Use the https://sunrisesunset.io/api/ API to build a sunrise/sunset application 
 - As a challenge, have the application fetch the sunrise/sunset for NYC upon first page load.
 
 ![An application that lets the user search for a latitude and longitude and shows them the sunrise and sunset at that latitude and longitude.](./images/sunrise-sunset-app.png)
+
