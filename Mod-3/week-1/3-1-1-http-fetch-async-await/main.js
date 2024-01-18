@@ -1,16 +1,24 @@
 fetch('https://pokeapi.co/api/v2/pokemon/ditto')// fetch gives us a response object
-.then((response) => { // use the .then to do something with the response object
-    console.log(response); // just logging the response object but we want to turn it into json
+  .then((response) => { // use the .then to do something with the response object
+    console.log(response ); // just logging the response object but we want to turn it into json
     return response.json();// turn it into json and return the value.
   })
-  .then((pokemon) => {
-    console.log(pokemon);
+  .then(({name}) => {
+    console.log(name);
     const div = document.createElement('div')
     div.innerHTML = `
-    <p>${pokemon.name}</p>
+    <p>${name}</p>
     `
     document.body.append(div);
   })
+  .catch(error => {
+    console.error(error.message);
+  })
+
+
+
+
+
 
   const fetchData = async (url, options = {}) => {
     try {
@@ -36,3 +44,35 @@ fetch('https://pokeapi.co/api/v2/pokemon/ditto')// fetch gives us a response obj
       return [null, error]; 
     }
   }
+
+
+  const getDitto = async () => {
+    const [ data ] = await fetchData('https://pokeapi.co/api/v2/pokemon/ditto');
+    console.log(data.name);
+    const div = document.createElement('div')
+    div.innerHTML = `
+    <p>${data.name}</p>
+      `
+    document.body.append(div);
+  }
+
+  getDitto();
+
+  
+// const asyncFunc = () => {
+//   new Promise((resolve, reject) => {
+//     if (Math.random() > 0.5) {
+//       return resolve('it was above 0.5');
+//     } else {
+//      return reject(new Error('it was below 0.5'));
+//     }
+//   });
+// }
+
+// const somePromise = asyncFunc();
+
+// somePromise
+//   .then((res)=>{
+//     console.log(res)
+//   })
+//   .catch()
