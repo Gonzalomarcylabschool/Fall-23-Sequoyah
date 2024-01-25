@@ -26,6 +26,8 @@ export default async function app(appDiv) {
   const newUserFormEl = document.createElement('form');
   newUserFormEl.id = 'new-user-form';
   appDiv.append(newUserFormEl);
+
+
   // Render the form!
   renderNewUserForm(newUserFormEl);
 
@@ -44,10 +46,10 @@ export default async function app(appDiv) {
   });
 
   // newUserFormEl.addEventListener(() => {})
-  newUserFormEl.addEventListener('submit', async (event) => {
+  newUserFormEl.addEventListener('submit', async (e) => {
     console.log('HI/????:', );
-    event.preventDefault();
-    const formData = new FormData(event.target);
+    e.preventDefault();
+    const formData = new FormData(e.target);
     const newUser = Object.fromEntries(formData);
 
     newUser.isCool = !!newUser.isCool

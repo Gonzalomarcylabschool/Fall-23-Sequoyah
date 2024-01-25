@@ -4,10 +4,13 @@ export const getFirstThreeFantasyBooks = async () => {
     const response = await fetch(url)
     if (!response.ok) throw new Error('Failed to get fantasy books')
 
-    const { works } = await response.json();;
+    const { works } = await response.json();
 
-    return works.slice(0, 3).map((book) => {
-      const { title, authors, cover_id } = book;
+    return works.slice(0, 3).map((book) => {// this is a .map returns an array, book is each element from the original array 
+      const { title, authors, cover_id } = book;//I just want these 3 properties
+      //const title = book.tittle
+      //const author = book.authors
+      //const cover = `https://covers.openlibrary.org/a/id/${book.cover_id}-M.jpg`
       const author = {
         name: authors[0].name,
         urlKey: authors[0].key,
@@ -15,6 +18,7 @@ export const getFirstThreeFantasyBooks = async () => {
       const coverUrl = `https://covers.openlibrary.org/a/id/${cover_id}-M.jpg`;
 
       return { title, author, coverUrl };
+      //[{title, author, coverUrl}, {title, author, coverUrl}, {title, author, coverUrl}]
     });
   } catch (error) {
     console.warn(error.message)
@@ -41,11 +45,12 @@ export const getAuthor = async (authorUrlKey) => {
 export const createNewUser = async (newUserData) => {
   const userUrl = 'https://jsonplaceholder.typicode.com/users'
   try {
-    const response = await fetch(userUrl, {
+    const option = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(newUserData)
-    })
+    }
+    const response = await fetch(userUrl, option);
     if (!response.ok) throw new Error('Failed to create new user')
 
     return response.json();
