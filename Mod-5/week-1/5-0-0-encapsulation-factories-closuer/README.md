@@ -12,9 +12,10 @@
 
 ## Intro to Mod 5: Object-Oriented Programming (OOP) — 5 minutes
 
-Object-Oriented Programming is a style of programming (a "paradigm") that uses **objects to manage state (data) and behavior** in an application. While OOP does let us do some new things, more than anything, it helps us write better, more organized code.
+Object-Oriented Programming(OOP) is a style of programming (a "paradigm") that uses **objects to manage state (data) and behavior** in an application. While OOP does let us do some new things, more than anything, it helps us write better, more organized code.
 
-It can be defined by its 4 pillars:
+
+OOP can be defined by its 4 pillars:
 * **Encapsulation** - every object should control its own state
 * **Abstraction** - hiding complexity through functions and prototypes
 * **Inheritance** - sharing behavior between objects
@@ -26,7 +27,7 @@ Throughout this module, we will be learning about these four pillars and how we 
 
 ## Encapsulation — 15 minutes
 
-In functional programming, we separate data from the functions that act on them. We achieve **consistency** & **predicatability** through pure functions.
+In functional programming, we separate data from the functions that act on them. We achieve **consistency** & **predictability** through pure functions.
 
 ```js
 // Functional Programming separates data from functionality
@@ -40,7 +41,7 @@ const addFriend = (friends, newFriend) => {
 const newFriends = addFriend(friends, 'daniel');
 ```
 
-In OOP, we store data in objects and give those obejcts methods to manipulate their own data. This is called **encapsulation**.
+In OOP, we store data in objects and give those objects methods to manipulate their own data. This is called **encapsulation**.
 
 ```js
 // Object Oriented Programming encapsulates data with functionality
