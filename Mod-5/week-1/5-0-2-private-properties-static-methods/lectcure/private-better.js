@@ -8,19 +8,19 @@ class User {
   constructor(name, email) {
     this.name = name;
     this.email = email;
-    this.password = null;
+    this._password = null;
   }
 
   setPassword(newPassword) {
-    this.password = newPassword;
+    this._password = newPassword;
   }
 
   validatePassword(passwordToCheck) {
-    if (!this.password) {
+    if (!this._password) {
       console.log('No password set.');
       return false;
     }
-    if (passwordToCheck === this.password) {
+    if (passwordToCheck === this._password) {
       console.log('It matches!');
       return true;
     }
@@ -33,5 +33,7 @@ const ben = new User('ben', 'ben@mail.com');
 ben.validatePassword('1234'); // No password set.
 ben.setPassword('1234');
 ben.validatePassword('1234'); // It Matches!
-
+console.log(ben._password)
+ben._password = 1212;
+ben.validatePassword('1234')
 

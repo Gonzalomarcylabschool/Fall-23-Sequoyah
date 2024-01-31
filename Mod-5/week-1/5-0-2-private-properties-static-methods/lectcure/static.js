@@ -5,6 +5,7 @@ class User {
     this.name = name;
     this.email = email;
     this.#password = null;
+    this.isAdmin = false;
   }
 
   setPassword(newPassword) {
@@ -24,9 +25,18 @@ class User {
     return false;
   }
   //add static method here
+  static makeAdmin(user) {
+    user.isAdmin = true;
+    console.log(`${user.name} is now an admin.`);
+  }
 }
 
 const ben = new User('ben', 'ben@mail.com');
-ben.validatePassword('1234'); // No password set.
-ben.setPassword('1234');
-ben.validatePassword('1234'); // It Matches!
+const bryant = new User('bryant', 'bryant@gmail.com')
+const mohammad = new User('mohammad', 'mo@mgail.com')
+console.log(ben);
+console.log(bryant);
+User.makeAdmin(ben);
+console.log(ben);
+
+const newArr = new Array()
