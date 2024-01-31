@@ -41,9 +41,19 @@ const ben = new User('ben', 'ben@mail.com');
 ben.validatePassword('1234'); // No password set.
 ben.setPassword('1234');
 ben.validatePassword('1234'); // It Matches!
-
+ben.password = '1212';// what will this do?
+ben.validatePassword('1234'); // is this true?
+ben.validatePassword('1212');// what about this one?
 ```
 Ideally, we wouldn't want the `password` property to be directly accessible and modifiable. This is where the concept of __private properties__ comes in.
+
+**<details><summary style="color: purple">Q. What happens when were try to access the password property?</summary>**
+
+The password property is a public property, meaning it can be accessed from outside the class instances. 
+
+You can still directly modify it from outside the class instance. This is generally not recommended for sensitive information like passwords.
+
+</details>
 
 # Naming Convention
 
@@ -174,6 +184,28 @@ User.makeAdmin(ben);
 console.log(ben.isAdmin); // true
 
 ```
+**<details><summary style="color: purple">Q. Why would it be better for `makeAdmin` to be a static method rather than a instance method?</summary>**
+Clarity of Intent:
+
+* Using a static method clearly communicates that the operation is related to the User class itself, not to a specific user instance.
+* Enhances code readability by indicating that the method affects the class's behavior at a higher level.
+
+Avoiding Unnecessary Instantiation:
+
+* Making makeAdmin an instance method would require creating an instance just to make a user an admin.
+* As a static method, it avoids unnecessary instantiation for this specific operation.
+
+In general we would want to avoid the following:
+```js
+ben.makeAdmin();
+gonzalo.makeAdmin();
+zae.makeAdmin();
+// If we want to make an admin it should be:
+User.makeAdmin(ben);
+User.makeAdmin(gonzalo);
+User.makeAdmin(zae);
+```
+</details>
 # Quiz!
 
 Consider the following code snippet:

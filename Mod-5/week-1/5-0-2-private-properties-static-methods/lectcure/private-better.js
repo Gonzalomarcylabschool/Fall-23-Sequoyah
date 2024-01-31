@@ -33,7 +33,5 @@ const ben = new User('ben', 'ben@mail.com');
 ben.validatePassword('1234'); // No password set.
 ben.setPassword('1234');
 ben.validatePassword('1234'); // It Matches!
-ben._password = '1212';
-ben.validatePassword('1234'); // Wrong password!
-ben.validatePassword('1212'); // It Matches!
+
 
