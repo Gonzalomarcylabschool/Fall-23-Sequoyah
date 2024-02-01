@@ -43,23 +43,34 @@ class Teacher {
   }
 }
 
-// Creating instances
-const ben = new Teacher('Ben', 'Technical');
-const gonzalo = new Teacher('Gonzalo', 'Technical');
-const motun = new Teacher('Motun', 'L&D');
+
 
 const nicoleB = new Student('Nicole', 8);
 const nicoleJ = new Student('Nicole', 7);
 const nico = new Student('nico', 9);
 
+console.log(nicoleB);
+console.log(nicoleJ);
+console.log(nico);
+
+console.log(nicoleB.getId())
+
+// Creating instances
+const ben = new Teacher('Ben', 'Technical');
+const gonzalo = new Teacher('Gonzalo', 'Technical');
+const motun = new Teacher('Motun', 'L&D');
+
+console.log(gonzalo)
+
 // Building the one-to-many relationship
-ben.addStudent(nico);
+// ben.addStudent(nico);
 gonzalo.addStudent(nicoleB);
+gonzalo.addStudent(nico);
 
-motun.addStudent(nicoleB);
-motun.addStudent(nicoleJ);
+// motun.addStudent(nicoleB);
+// motun.addStudent(nicoleJ);
 
 
-ben.listStudents();
+// ben.listStudents();
 gonzalo.listStudents();
-motun.listStudents();
+// motun.listStudents();

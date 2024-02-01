@@ -1,4 +1,4 @@
-const makeGonzaloShoes = () => {
+const makeShoesList = () => {
   let id = 0;
   const gonzaloShoes = {
     shoes: [],
@@ -22,12 +22,12 @@ const makeGonzaloShoes = () => {
   return gonzaloShoes
 }
 
-const gonzaloShoeOne = makeGonzaloShoes();
+const gonzaloShoeOne = makeShoesList();
 console.log(gonzaloShoeOne);
-gonzaloShoeOne.addShoe('nike', 'SB Force 58 Premium', 11.5, ['obsidian', 'midnight turquoise', 'phantom', 'viotech'])
-console.log(gonzaloShoeOne);
-gonzaloShoeOne.removeShoe(0)
-console.log(gonzaloShoeOne);
-const gonzaloShoeTwo = makeGonzaloShoes();
-gonzaloShoeTwo.addShoe('nike', 'SB Force 58 ', 11.5, ['pink bloom', 'midnight turquoise', 'phantom', 'viotech']);
-console.log(gonzaloShoeTwo);
+// gonzaloShoeOne.addShoe('nike', 'SB Force 58 Premium', 11.5, ['obsidian', 'midnight turquoise', 'phantom', 'viotech'])
+// console.log(gonzaloShoeOne);
+// gonzaloShoeOne.removeShoe(0)
+// console.log(gonzaloShoeOne);
+// const gonzaloShoeTwo = makeGonzaloShoes();
+// gonzaloShoeTwo.addShoe('nike', 'SB Force 58 ', 11.5, ['pink bloom', 'midnight turquoise', 'phantom', 'viotech']);
+// console.log(gonzaloShoeTwo);
