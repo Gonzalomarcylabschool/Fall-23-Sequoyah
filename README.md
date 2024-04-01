@@ -281,7 +281,7 @@ Resources
 
 Week 0*
 
-* **4/1/24 - Intro to Express** | [Repo with Code](https://github.com/The-Marcy-Lab-School/8-0-0-intro-to-express) | Recording
+* **4/1/24 - Intro to Express** | [Repo with Code](./Mod-8/week-0/8-0-0-intro-to-express-f23/) | Recording
 * **4/2/24 - Express Middleware (Static Server)** | [Repo with Code](https://github.com/The-Marcy-Lab-School/8-0-1-express-middleware) | Recording
 * **4/3/24 - Server-Side API Requests** | [Repo with Code](https://github.com/The-Marcy-Lab-School/8-0-2-express-api-middleman) | Recording
 * **4/4/24 - Review** | Repo with Code | Recording
