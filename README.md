@@ -2,7 +2,7 @@
 
 Fall 23 Marcy lab School technical curriculum Repo. You can find all the slides, lecture repos, and all resources for the fall curriculum.  
 
-[Click here for the most recent Mod](#mod-8-Backend-Express-Postgres-SQL-Knex-and-Auth)
+[Click here for the most recent Mod](#mod-8---backend)
 
 ## Curriculum Resources
 
@@ -267,7 +267,7 @@ Week 2 — Project Week!
 
 ---
 
-## Mod 8 - Backend: Express, Postgres, SQL, Knex, and Auth
+## Mod 8 - Backend
 
 Resources
 
