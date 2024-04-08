@@ -272,6 +272,7 @@ Resources
 * [Express Docs](https://expressjs.com/)
 * [Express MDN Tutorial](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
 * [Best Practices for REST API design](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/)
+* [MVC](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 * [Video: What is Postgres?](https://www.youtube.com/watch?v=Yfrrjt1ieyk&ab_channel=Kinsta)
 * [Launch School Intro to SQL Online Textbook](https://launchschool.com/books/sql)
 * [Khan Academy SQL Course](https://www.khanacademy.org/computing/computer-programming/sql/sql-basics/v/welcome-to-sql)
