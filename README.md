@@ -1,6 +1,8 @@
 # Fall-23-Sequoyah
 
-Fall 23 Marcy lab School technical curriculum Repo. You can find all of the slides, lecture repos and all resources for the fall curriculum.  
+Fall 23 Marcy lab School technical curriculum Repo. You can find all the slides, lecture repos, and all resources for the fall curriculum.  
+
+[Click here for the most recent Mod](#mod-8-Backend-Express-Postgres-SQL-Knex-and-Auth)
 
 ## Curriculum Resources
 
